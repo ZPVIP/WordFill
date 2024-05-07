@@ -1,8 +1,8 @@
 import React, { useState, useEffect, createRef } from 'react';
-import words from './words.json';
+import all_words from './words.json';
 
 function WordFill() {
-    const [word, setWord] = useState({ incomplete_word: '', complete_word: '' });
+    const [word, setWord] = useState({ incomplete_word: '', complete_word: '', context: '' });
     const [wrong, setWrong] = useState('');
     const [completeWord, setCompleteWord] = useState('');
     const [inputs, setInputs] = useState([]);
@@ -11,7 +11,7 @@ function WordFill() {
 
     const [isRandom, setIsRandom] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
-
+    const words = all_words.words;
 
     useEffect(() => {
         fetchWord();
@@ -19,15 +19,14 @@ function WordFill() {
 
     const fetchWord = () => {
         try {
-            const keys = Object.keys(words);
-            let key;
+            let data;
             if (isRandom) {
-                key = keys[Math.floor(Math.random() * keys.length)];
+                data = words[Math.floor(Math.random() * words.length)];
             } else {
-                key = keys[currentIndex % keys.length];
+                data = words[currentIndex % words.length];
                 setCurrentIndex(currentIndex + 1);
             }
-            const data = { incomplete_word: key, complete_word: words[key] };
+
             setWord(data);
             setInputs(new Array(data.complete_word.length - data.incomplete_word.length).fill(''));
             setCurrentInputIndex(0);
@@ -35,6 +34,7 @@ function WordFill() {
             console.error('Failed to fetch word:', error);
         }
     };
+
 
 
     const handleInputChange = (e, index) => {
@@ -82,16 +82,13 @@ function WordFill() {
 
     return (
         <div>
-        <div style={{position: 'absolute', top: '10px', right: '10px'}}>
-            <input
-            type="checkbox"
-            checked={isRandom}
-            onChange={() => setIsRandom(!isRandom)}
-        /> Random
-        </div>
-        <div style={{ textAlign: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
-            <div style={{ display: 'flex', fontSize: '5em', justifyContent: 'center', alignItems: 'center' }}>
-                <span>{word.incomplete_word}</span>
+            <div style={{position: 'absolute', top: '10px', right: '10px'}}>
+                <input type="checkbox" checked={isRandom} onChange={() => setIsRandom(!isRandom)} /> Random
+            </div>
+            <div style={{ textAlign: 'center', position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
+                <div style={{ display: 'flex', fontSize: '3em', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap' }}>
+                    <span>{word.context.split('@@')[0]} &nbsp;</span>
+                    <span>{word.incomplete_word}</span>
                     {inputs.map((value, index) => (
                         <input
                             key={index}
@@ -103,13 +100,14 @@ function WordFill() {
                             style={{width: '60px', height: '80px', textAlign: 'center', fontSize: '1em', margin: '0 5px', border: '1px solid #000'}}
                         />
                     ))}
-                <span style={{color: 'red', padding: '0 0 0 20px'}}>{wrong}</span>
+                    <span>&nbsp;{word.context.split('@@')[1]}</span>
+                    <span style={{color: 'red', padding: '0 0 0 20px'}}>{wrong}</span>
+                </div>
+                <div>&nbsp;</div>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    <span>{completeWord}</span>
+                </div>
             </div>
-            <div>&nbsp;</div>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <span>{completeWord}</span>
-            </div>
-        </div>
         </div>
     );
 }

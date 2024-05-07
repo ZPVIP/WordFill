@@ -1,6 +1,4554 @@
 {
-  "hel": "hello",
-  "wor": "world",
-  "goo": "good",
-  "mor": "more"
+  "words": [
+    {
+      "incomplete_word": "ab",
+      "complete_word": "able",
+      "context": "I am @@ to help you."
+    },
+    {
+      "incomplete_word": "ab",
+      "complete_word": "about",
+      "context": "What is this @@?"
+    },
+    {
+      "incomplete_word": "acc",
+      "complete_word": "access",
+      "context": "You have @@ to the building."
+    },
+    {
+      "incomplete_word": "acc",
+      "complete_word": "account",
+      "context": "Please check your bank @@."
+    },
+    {
+      "incomplete_word": "actu",
+      "complete_word": "actually",
+      "context": "I @@ don't mind."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "add",
+      "context": "Please @@ this to your shopping list."
+    },
+    {
+      "incomplete_word": "add",
+      "complete_word": "address",
+      "context": "What's your @@?"
+    },
+    {
+      "incomplete_word": "adva",
+      "complete_word": "advanced",
+      "context": "This is an @@ course."
+    },
+    {
+      "incomplete_word": "advert",
+      "complete_word": "advertising",
+      "context": "He works in @@."
+    },
+    {
+      "incomplete_word": "adv",
+      "complete_word": "advice",
+      "context": "I need your @@."
+    },
+    {
+      "incomplete_word": "affo",
+      "complete_word": "afford",
+      "context": "I can't @@ a new car."
+    },
+    {
+      "incomplete_word": "af",
+      "complete_word": "after",
+      "context": "See you @@ lunch."
+    },
+    {
+      "incomplete_word": "afte",
+      "complete_word": "afternoon",
+      "context": "Good @@."
+    },
+    {
+      "incomplete_word": "ag",
+      "complete_word": "again",
+      "context": "Try @@."
+    },
+    {
+      "incomplete_word": "airp",
+      "complete_word": "airplane",
+      "context": "The @@ is landing."
+    },
+    {
+      "incomplete_word": "airp",
+      "complete_word": "airplanes",
+      "context": "I love watching @@."
+    },
+    {
+      "incomplete_word": "air",
+      "complete_word": "airport",
+      "context": "I'm at the @@."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "all",
+      "context": "I gave it my @@."
+    },
+    {
+      "incomplete_word": "al",
+      "complete_word": "allow",
+      "context": "Does your schedule @@ for a meeting?"
+    },
+    {
+      "incomplete_word": "all",
+      "complete_word": "allows",
+      "context": "The system @@ multiple users."
+    },
+    {
+      "incomplete_word": "alm",
+      "complete_word": "almost",
+      "context": "I'm @@ done."
+    },
+    {
+      "incomplete_word": "alph",
+      "complete_word": "alphabet",
+      "context": "I know the @@."
+    },
+    {
+      "incomplete_word": "alr",
+      "complete_word": "already",
+      "context": "I've @@ eaten."
+    },
+    {
+      "incomplete_word": "al",
+      "complete_word": "also",
+      "context": "I @@ want to go."
+    },
+    {
+      "incomplete_word": "alw",
+      "complete_word": "always",
+      "context": "I @@ forget names."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "am",
+      "context": "I @@ happy."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "an",
+      "context": "I saw @@ elephant."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "and",
+      "context": "You @@ me."
+    },
+    {
+      "incomplete_word": "ano",
+      "complete_word": "another",
+      "context": "Let's try @@ way."
+    },
+    {
+      "incomplete_word": "ans",
+      "complete_word": "answer",
+      "context": "I don't know the @@."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "any",
+      "context": "Do you have @@ questions?"
+    },
+    {
+      "incomplete_word": "anyt",
+      "complete_word": "anything",
+      "context": "Can I help you with @@?"
+    },
+    {
+      "incomplete_word": "any",
+      "complete_word": "anyway",
+      "context": "I don't mind @@."
+    },
+    {
+      "incomplete_word": "ap",
+      "complete_word": "apart",
+      "context": "They live @@ from each other."
+    },
+    {
+      "incomplete_word": "apar",
+      "complete_word": "apartment",
+      "context": "I live in an @@."
+    },
+    {
+      "incomplete_word": "ap",
+      "complete_word": "apple",
+      "context": "I like to eat an @@."
+    },
+    {
+      "incomplete_word": "app",
+      "complete_word": "applied",
+      "context": "He @@ for the job."
+    },
+    {
+      "incomplete_word": "appr",
+      "complete_word": "approach",
+      "context": "What's your @@ to this problem?"
+    },
+    {
+      "incomplete_word": "ap",
+      "complete_word": "apps",
+      "context": "I have many @@ on my phone."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "are",
+      "context": "How @@ you?"
+    },
+    {
+      "incomplete_word": "ar",
+      "complete_word": "areas",
+      "context": "There are many @@ of interest in this city."
+    },
+    {
+      "incomplete_word": "aro",
+      "complete_word": "around",
+      "context": "Let's walk @@ the park."
+    },
+    {
+      "incomplete_word": "arti",
+      "complete_word": "articles",
+      "context": "I read several @@ on that topic."
+    },
+    {
+      "incomplete_word": "art",
+      "complete_word": "artist",
+      "context": "He is a famous @@."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "as",
+      "context": "I work @@ a teacher."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "ask",
+      "context": "Can I @@ a question?"
+    },
+    {
+      "incomplete_word": "as",
+      "complete_word": "asked",
+      "context": "He @@ for directions."
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "at",
+      "context": "Look @@ that!"
+    },
+    {
+      "incomplete_word": "a",
+      "complete_word": "ate",
+      "context": "I @@ too much."
+    },
+    {
+      "incomplete_word": "attem",
+      "complete_word": "attempting",
+      "context": "He is @@ to break the record."
+    },
+    {
+      "incomplete_word": "aw",
+      "complete_word": "away",
+      "context": "He lives far @@."
+    },
+    {
+      "incomplete_word": "ba",
+      "complete_word": "baby",
+      "context": "The @@ is sleeping."
+    },
+    {
+      "incomplete_word": "ba",
+      "complete_word": "back",
+      "context": "I'll be right @@."
+    },
+    {
+      "incomplete_word": "ba",
+      "complete_word": "bake",
+      "context": "I like to @@ cookies."
+    },
+    {
+      "incomplete_word": "ba",
+      "complete_word": "ball",
+      "context": "Throw the @@."
+    },
+    {
+      "incomplete_word": "ba",
+      "complete_word": "balls",
+      "context": "There are many @@ on the field."
+    },
+    {
+      "incomplete_word": "bana",
+      "complete_word": "bananas",
+      "context": "I bought some @@."
+    },
+    {
+      "incomplete_word": "ba",
+      "complete_word": "bands",
+      "context": "There are many @@ at the festival."
+    },
+    {
+      "incomplete_word": "ba",
+      "complete_word": "bars",
+      "context": "There are many @@ in this area."
+    },
+    {
+      "incomplete_word": "base",
+      "complete_word": "baseball",
+      "context": "Let's play @@."
+    },
+    {
+      "incomplete_word": "ba",
+      "complete_word": "based",
+      "context": "The story is @@ on true events."
+    },
+    {
+      "incomplete_word": "bas",
+      "complete_word": "basics",
+      "context": "Let's start with the @@."
+    },
+    {
+      "incomplete_word": "baske",
+      "complete_word": "basketball",
+      "context": "I love playing @@."
+    },
+    {
+      "incomplete_word": "b",
+      "complete_word": "be",
+      "context": "I want to @@ there."
+    },
+    {
+      "incomplete_word": "b",
+      "complete_word": "bed",
+      "context": "I need to go to @@."
+    },
+    {
+      "incomplete_word": "b",
+      "complete_word": "bee",
+      "context": "The @@ is making honey."
+    },
+    {
+      "incomplete_word": "be",
+      "complete_word": "been",
+      "context": "I have @@ there."
+    },
+    {
+      "incomplete_word": "be",
+      "complete_word": "beers",
+      "context": "Let's have a few @@."
+    },
+    {
+      "incomplete_word": "bef",
+      "complete_word": "before",
+      "context": "I have seen it @@."
+    },
+    {
+      "incomplete_word": "be",
+      "complete_word": "being",
+      "context": "I enjoy @@ with my friends."
+    },
+    {
+      "incomplete_word": "be",
+      "complete_word": "best",
+      "context": "You are the @@."
+    },
+    {
+      "incomplete_word": "bet",
+      "complete_word": "better",
+      "context": "I feel @@ now."
+    },
+    {
+      "incomplete_word": "b",
+      "complete_word": "big",
+      "context": "That's a @@ problem."
+    },
+    {
+      "incomplete_word": "big",
+      "complete_word": "bigger",
+      "context": "This one is @@."
+    },
+    {
+      "incomplete_word": "bi",
+      "complete_word": "bike",
+      "context": "I ride my @@ to work."
+    },
+    {
+      "incomplete_word": "birt",
+      "complete_word": "birthday",
+      "context": "Today is my @@."
+    },
+    {
+      "incomplete_word": "bl",
+      "complete_word": "blue",
+      "context": "The sky is @@."
+    },
+    {
+      "incomplete_word": "bo",
+      "complete_word": "board",
+      "context": "Let's play a @@ game."
+    },
+    {
+      "incomplete_word": "bo",
+      "complete_word": "book",
+      "context": "I am reading a @@."
+    },
+    {
+      "incomplete_word": "bo",
+      "complete_word": "books",
+      "context": "I have many @@."
+    },
+    {
+      "incomplete_word": "bor",
+      "complete_word": "boring",
+      "context": "This is @@."
+    },
+    {
+      "incomplete_word": "borr",
+      "complete_word": "borrowed",
+      "context": "I @@ a book from the library."
+    },
+    {
+      "incomplete_word": "bo",
+      "complete_word": "both",
+      "context": "I like @@ of them."
+    },
+    {
+      "incomplete_word": "bou",
+      "complete_word": "bought",
+      "context": "I @@ a new car."
+    },
+    {
+      "incomplete_word": "bo",
+      "complete_word": "bowl",
+      "context": "I need a @@ for the soup."
+    },
+    {
+      "incomplete_word": "bo",
+      "complete_word": "boys",
+      "context": "The @@ are playing soccer."
+    },
+    {
+      "incomplete_word": "br",
+      "complete_word": "bread",
+      "context": "I baked some @@."
+    },
+    {
+      "incomplete_word": "brea",
+      "complete_word": "breakfast",
+      "context": "I am making @@."
+    },
+    {
+      "incomplete_word": "bre",
+      "complete_word": "breezy",
+      "context": "It's a @@ day."
+    },
+    {
+      "incomplete_word": "broadc",
+      "complete_word": "broadcasting",
+      "context": "He works in @@."
+    },
+    {
+      "incomplete_word": "bro",
+      "complete_word": "brother",
+      "context": "My @@ is older than me."
+    },
+    {
+      "incomplete_word": "bro",
+      "complete_word": "brothers",
+      "context": "I have two @@."
+    },
+    {
+      "incomplete_word": "buil",
+      "complete_word": "buildings",
+      "context": "There are many tall @@ in the city."
+    },
+    {
+      "incomplete_word": "bu",
+      "complete_word": "bulls",
+      "context": "The @@ are in the field."
+    },
+    {
+      "incomplete_word": "bur",
+      "complete_word": "burger",
+      "context": "I want a @@ for lunch."
+    },
+    {
+      "incomplete_word": "bu",
+      "complete_word": "burns",
+      "context": "The fire @@."
+    },
+    {
+      "incomplete_word": "b",
+      "complete_word": "bus",
+      "context": "The @@ is late."
+    },
+    {
+      "incomplete_word": "busi",
+      "complete_word": "business",
+      "context": "He owns a @@."
+    },
+    {
+      "incomplete_word": "b",
+      "complete_word": "but",
+      "context": "I want to go, @@ I can't."
+    },
+    {
+      "incomplete_word": "but",
+      "complete_word": "butter",
+      "context": "I need some @@ for the bread."
+    },
+    {
+      "incomplete_word": "b",
+      "complete_word": "buy",
+      "context": "I need to @@ some groceries."
+    },
+    {
+      "incomplete_word": "buy",
+      "complete_word": "buying",
+      "context": "I am @@ a new car."
+    },
+    {
+      "incomplete_word": "b",
+      "complete_word": "by",
+      "context": "I live @@ the sea."
+    },
+    {
+      "incomplete_word": "ca",
+      "complete_word": "cake",
+      "context": "I baked a @@."
+    },
+    {
+      "incomplete_word": "ca",
+      "complete_word": "cakes",
+      "context": "I like to bake @@."
+    },
+    {
+      "incomplete_word": "c",
+      "complete_word": "can",
+      "context": "I @@ do it."
+    },
+    {
+      "incomplete_word": "capabi",
+      "complete_word": "capabilities",
+      "context": "This software has many @@."
+    },
+    {
+      "incomplete_word": "c",
+      "complete_word": "car",
+      "context": "I drive a @@."
+    },
+    {
+      "incomplete_word": "car",
+      "complete_word": "career",
+      "context": "He has a successful @@."
+    },
+    {
+      "incomplete_word": "car",
+      "complete_word": "carols",
+      "context": "We sang Christmas @@."
+    },
+    {
+      "incomplete_word": "car",
+      "complete_word": "carry",
+      "context": "Can you @@ this for me?"
+    },
+    {
+      "incomplete_word": "ca",
+      "complete_word": "cars",
+      "context": "There are many @@ on the road."
+    },
+    {
+      "incomplete_word": "cau",
+      "complete_word": "caught",
+      "context": "He @@ the ball."
+    },
+    {
+      "incomplete_word": "cen",
+      "complete_word": "century",
+      "context": "We live in the 21st @@."
+    },
+    {
+      "incomplete_word": "cere",
+      "complete_word": "ceremony",
+      "context": "The @@ was beautiful."
+    },
+    {
+      "incomplete_word": "cer",
+      "complete_word": "certain",
+      "context": "I am @@ of it."
+    },
+    {
+      "incomplete_word": "cha",
+      "complete_word": "chances",
+      "context": "There are no @@ of success."
+    },
+    {
+      "incomplete_word": "cha",
+      "complete_word": "change",
+      "context": "Can you @@ this note for coins?"
+    },
+    {
+      "incomplete_word": "cha",
+      "complete_word": "changs",
+      "context": "The @@ are constant."
+    },
+    {
+      "incomplete_word": "chea",
+      "complete_word": "cheating",
+      "context": "He was accused of @@."
+    },
+    {
+      "incomplete_word": "ch",
+      "complete_word": "check",
+      "context": "Can you @@ the time?"
+    },
+    {
+      "incomplete_word": "ch",
+      "complete_word": "cheer",
+      "context": "Let's @@ for our team."
+    },
+    {
+      "incomplete_word": "chem",
+      "complete_word": "chemistry",
+      "context": "I am studying @@."
+    },
+    {
+      "incomplete_word": "chi",
+      "complete_word": "chicken",
+      "context": "I cooked @@ for dinner."
+    },
+    {
+      "incomplete_word": "ch",
+      "complete_word": "child",
+      "context": "The @@ is playing."
+    },
+    {
+      "incomplete_word": "chil",
+      "complete_word": "children",
+      "context": "The @@ are playing."
+    },
+    {
+      "incomplete_word": "cho",
+      "complete_word": "chose",
+      "context": "I @@ the red one."
+    },
+    {
+      "incomplete_word": "ci",
+      "complete_word": "city",
+      "context": "I live in a big @@."
+    },
+    {
+      "incomplete_word": "cl",
+      "complete_word": "class",
+      "context": "I have a @@ at 8."
+    },
+    {
+      "incomplete_word": "clas",
+      "complete_word": "clasical",
+      "context": "I like @@ music."
+    },
+    {
+      "incomplete_word": "classr",
+      "complete_word": "classrooms",
+      "context": "There are many @@ in this school."
+    },
+    {
+      "incomplete_word": "cl",
+      "complete_word": "clean",
+      "context": "Keep your room @@."
+    },
+    {
+      "incomplete_word": "cl",
+      "complete_word": "clock",
+      "context": "The @@ is ticking."
+    },
+    {
+      "incomplete_word": "cl",
+      "complete_word": "close",
+      "context": "Please @@ the door."
+    },
+    {
+      "incomplete_word": "clo",
+      "complete_word": "clothes",
+      "context": "I need to wash my @@."
+    },
+    {
+      "incomplete_word": "cof",
+      "complete_word": "coffee",
+      "context": "I need a cup of @@."
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "cold",
+      "context": "It's @@ outside."
+    },
+    {
+      "incomplete_word": "col",
+      "complete_word": "college",
+      "context": "I go to @@."
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "color",
+      "context": "What's your favorite @@?"
+    },
+    {
+      "incomplete_word": "col",
+      "complete_word": "colors",
+      "context": "I like bright @@."
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "come",
+      "context": "Can you @@ over?"
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "comes",
+      "context": "Here @@ the bus."
+    },
+    {
+      "incomplete_word": "comfo",
+      "complete_word": "comfortable",
+      "context": "I feel @@ in this chair."
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "comic",
+      "context": "I read a @@ book."
+    },
+    {
+      "incomplete_word": "comp",
+      "complete_word": "compeers",
+      "context": "He outshone his @@."
+    },
+    {
+      "incomplete_word": "con",
+      "complete_word": "concert",
+      "context": "I went to a @@."
+    },
+    {
+      "incomplete_word": "conn",
+      "complete_word": "connected",
+      "context": "The computers are @@ to the network."
+    },
+    {
+      "incomplete_word": "cons",
+      "complete_word": "consider",
+      "context": "I will @@ your proposal."
+    },
+    {
+      "incomplete_word": "cont",
+      "complete_word": "contents",
+      "context": "Check the @@ of the box."
+    },
+    {
+      "incomplete_word": "con",
+      "complete_word": "control",
+      "context": "I lost @@ of the car."
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "cook",
+      "context": "I can @@ dinner."
+    },
+    {
+      "incomplete_word": "cop",
+      "complete_word": "copies",
+      "context": "I need two @@ of this document."
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "cost",
+      "context": "How much does it @@?"
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "could",
+      "context": "I @@ not believe it."
+    },
+    {
+      "incomplete_word": "coun",
+      "complete_word": "countries",
+      "context": "There are many @@ in Europe."
+    },
+    {
+      "incomplete_word": "cou",
+      "complete_word": "country",
+      "context": "I love my @@."
+    },
+    {
+      "incomplete_word": "cou",
+      "complete_word": "course",
+      "context": "This @@ is very interesting."
+    },
+    {
+      "incomplete_word": "cou",
+      "complete_word": "courses",
+      "context": "He has enrolled in several @@ this semester."
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "court",
+      "context": "The game will be played on the @@."
+    },
+    {
+      "incomplete_word": "cov",
+      "complete_word": "covers",
+      "context": "The book @@ are colorful."
+    },
+    {
+      "incomplete_word": "co",
+      "complete_word": "cozy",
+      "context": "The room looks very @@."
+    },
+    {
+      "incomplete_word": "cr",
+      "complete_word": "cried",
+      "context": "She @@ when she heard the news."
+    },
+    {
+      "incomplete_word": "cult",
+      "complete_word": "cultures",
+      "context": "Learning about different @@ is fascinating."
+    },
+    {
+      "incomplete_word": "d",
+      "complete_word": "dad",
+      "context": "My @@ is my hero."
+    },
+    {
+      "incomplete_word": "dan",
+      "complete_word": "dancing",
+      "context": "She enjoys @@ on the weekends."
+    },
+    {
+      "incomplete_word": "dang",
+      "complete_word": "dangerous",
+      "context": "That looks @@; please be careful."
+    },
+    {
+      "incomplete_word": "da",
+      "complete_word": "dark",
+      "context": "It gets @@ very early in the winter."
+    },
+    {
+      "incomplete_word": "da",
+      "complete_word": "data",
+      "context": "We need more @@ to analyze."
+    },
+    {
+      "incomplete_word": "da",
+      "complete_word": "date",
+      "context": "What is the @@ today?"
+    },
+    {
+      "incomplete_word": "daug",
+      "complete_word": "daughter",
+      "context": "My @@ is starting school this year."
+    },
+    {
+      "incomplete_word": "daug",
+      "complete_word": "daughters",
+      "context": "They have two @@ and a son."
+    },
+    {
+      "incomplete_word": "d",
+      "complete_word": "day",
+      "context": "What a beautiful @@ it is!"
+    },
+    {
+      "incomplete_word": "dec",
+      "complete_word": "decided",
+      "context": "After much thought, I @@ to stay."
+    },
+    {
+      "incomplete_word": "deci",
+      "complete_word": "decision",
+      "context": "Making the right @@ can be hard."
+    },
+    {
+      "incomplete_word": "decor",
+      "complete_word": "decoration",
+      "context": "The @@ for the party was amazing."
+    },
+    {
+      "incomplete_word": "de",
+      "complete_word": "deep",
+      "context": "The water is too @@ for children."
+    },
+    {
+      "incomplete_word": "defin",
+      "complete_word": "definition",
+      "context": "Can you give me the @@ of this word?"
+    },
+    {
+      "incomplete_word": "des",
+      "complete_word": "design",
+      "context": "She has a talent for @@."
+    },
+    {
+      "incomplete_word": "desi",
+      "complete_word": "designed",
+      "context": "The building was @@ by a famous architect."
+    },
+    {
+      "incomplete_word": "des",
+      "complete_word": "desktop",
+      "context": "I need a new @@ wallpaper."
+    },
+    {
+      "incomplete_word": "dess",
+      "complete_word": "dessert",
+      "context": "What's for @@ tonight?"
+    },
+    {
+      "incomplete_word": "deve",
+      "complete_word": "developed",
+      "context": "The software has been fully @@."
+    },
+    {
+      "incomplete_word": "devel",
+      "complete_word": "development",
+      "context": "This area has seen rapid @@."
+    },
+    {
+      "incomplete_word": "di",
+      "complete_word": "dices",
+      "context": "He @@ the vegetables finely."
+    },
+    {
+      "incomplete_word": "dicti",
+      "complete_word": "dictionary",
+      "context": "I use the @@ to look up new words."
+    },
+    {
+      "incomplete_word": "d",
+      "complete_word": "did",
+      "context": "I @@ not understand the question."
+    },
+    {
+      "incomplete_word": "d",
+      "complete_word": "die",
+      "context": "Legends never @@."
+    },
+    {
+      "incomplete_word": "diff",
+      "complete_word": "different",
+      "context": "There are many @@ types of flowers here."
+    },
+    {
+      "incomplete_word": "d",
+      "complete_word": "dig",
+      "context": "The dog likes to @@ holes in the garden."
+    },
+    {
+      "incomplete_word": "din",
+      "complete_word": "dinner",
+      "context": "What are we having for @@?"
+    },
+    {
+      "incomplete_word": "dir",
+      "complete_word": "direct",
+      "context": "He has a @@ way of speaking."
+    },
+    {
+      "incomplete_word": "di",
+      "complete_word": "direct",
+      "context": "Please @@ your attention to the front."
+    },
+    {
+      "incomplete_word": "di",
+      "complete_word": "dirty",
+      "context": "My shoes are @@ from the hike."
+    },
+    {
+      "incomplete_word": "disa",
+      "complete_word": "disaster",
+      "context": "The flood was a natural @@."
+    },
+    {
+      "incomplete_word": "disg",
+      "complete_word": "disgrace",
+      "context": "It was a @@ to the family."
+    },
+    {
+      "incomplete_word": "distr",
+      "complete_word": "distracted",
+      "context": "I get @@ easily when studying."
+    },
+    {
+      "incomplete_word": "d",
+      "complete_word": "do",
+      "context": "What do you want to @@ this weekend?"
+    },
+    {
+      "incomplete_word": "doct",
+      "complete_word": "doctor",
+      "context": "I need to see a @@."
+    },
+    {
+      "incomplete_word": "do",
+      "complete_word": "does",
+      "context": "How @@ this machine work?"
+    },
+    {
+      "incomplete_word": "d",
+      "complete_word": "dog",
+      "context": "My @@ is very friendly."
+    },
+    {
+      "incomplete_word": "do",
+      "complete_word": "dogs",
+      "context": "I love @@, they are great pets."
+    },
+    {
+      "incomplete_word": "do",
+      "complete_word": "doing",
+      "context": "How are you @@ today?"
+    },
+    {
+      "incomplete_word": "dol",
+      "complete_word": "dollars",
+      "context": "I found five @@ on the ground."
+    },
+    {
+      "incomplete_word": "do",
+      "complete_word": "done",
+      "context": "Are you @@ with your homework?"
+    },
+    {
+      "incomplete_word": "do",
+      "complete_word": "down",
+      "context": "Please sit @@."
+    },
+    {
+      "incomplete_word": "dra",
+      "complete_word": "drastic",
+      "context": "A @@ change is needed."
+    },
+    {
+      "incomplete_word": "dre",
+      "complete_word": "dresses",
+      "context": "She has a collection of @@."
+    },
+    {
+      "incomplete_word": "dr",
+      "complete_word": "drink",
+      "context": "Would you like something to @@?"
+    },
+    {
+      "incomplete_word": "dri",
+      "complete_word": "drinks",
+      "context": "The bar serves non-alcoholic @@ as well."
+    },
+    {
+      "incomplete_word": "dr",
+      "complete_word": "drive",
+      "context": "I learned how to @@ a car."
+    },
+    {
+      "incomplete_word": "dri",
+      "complete_word": "drivers",
+      "context": "Taxi @@ often know the fastest routes."
+    },
+    {
+      "incomplete_word": "d",
+      "complete_word": "dry",
+      "context": "I need to @@ my clothes."
+    },
+    {
+      "incomplete_word": "dur",
+      "complete_word": "during",
+      "context": "I fell asleep @@ the movie."
+    },
+    {
+      "incomplete_word": "ea",
+      "complete_word": "each",
+      "context": "We gave them @@ a present."
+    },
+    {
+      "incomplete_word": "ea",
+      "complete_word": "early",
+      "context": "I like to get up @@ in the morning."
+    },
+    {
+      "incomplete_word": "eas",
+      "complete_word": "easily",
+      "context": "This puzzle can be solved @@."
+    },
+    {
+      "incomplete_word": "ea",
+      "complete_word": "easy",
+      "context": "The test was surprisingly @@."
+    },
+    {
+      "incomplete_word": "e",
+      "complete_word": "eat",
+      "context": "I love to @@ Italian food."
+    },
+    {
+      "incomplete_word": "eat",
+      "complete_word": "eating",
+      "context": "We are @@ out tonight."
+    },
+    {
+      "incomplete_word": "ea",
+      "complete_word": "eats",
+      "context": "He @@ too much junk food."
+    },
+    {
+      "incomplete_word": "eg",
+      "complete_word": "eggs",
+      "context": "I bought a dozen @@."
+    },
+    {
+      "incomplete_word": "ei",
+      "complete_word": "either",
+      "context": "You can have @@ tea or coffee."
+    },
+    {
+      "incomplete_word": "elect",
+      "complete_word": "electricity",
+      "context": "The storm caused a @@ outage."
+    },
+    {
+      "incomplete_word": "elect",
+      "complete_word": "electronic",
+      "context": "I prefer @@ books to paper ones."
+    },
+    {
+      "incomplete_word": "elem",
+      "complete_word": "elements",
+      "context": "Water is composed of two @@."
+    },
+    {
+      "incomplete_word": "elep",
+      "complete_word": "elephant",
+      "context": "The @@ is the largest land animal."
+    },
+    {
+      "incomplete_word": "el",
+      "complete_word": "else",
+      "context": "What @@ do you need?"
+    },
+    {
+      "incomplete_word": "empl",
+      "complete_word": "employee",
+      "context": "He is a new @@ at the company."
+    },
+    {
+      "incomplete_word": "empl",
+      "complete_word": "employees",
+      "context": "The company treats its @@ well."
+    },
+    {
+      "incomplete_word": "encou",
+      "complete_word": "encouraged",
+      "context": "She was @@ by her friends to apply for the job."
+    },
+    {
+      "incomplete_word": "e",
+      "complete_word": "end",
+      "context": "All good things come to an @@."
+    },
+    {
+      "incomplete_word": "en",
+      "complete_word": "enjoy",
+      "context": "I really @@ playing chess."
+    },
+    {
+      "incomplete_word": "enjo",
+      "complete_word": "enjoying",
+      "context": "Are you @@ your meal?"
+    },
+    {
+      "incomplete_word": "eno",
+      "complete_word": "enough",
+      "context": "I've had @@ of this noise."
+    },
+    {
+      "incomplete_word": "ev",
+      "complete_word": "even",
+      "context": "It's not @@ cold outside."
+    },
+    {
+      "incomplete_word": "eve",
+      "complete_word": "evening",
+      "context": "Good @@! How was your day?"
+    },
+    {
+      "incomplete_word": "even",
+      "complete_word": "evenings",
+      "context": "I spend my @@ reading."
+    },
+    {
+      "incomplete_word": "ev",
+      "complete_word": "ever",
+      "context": "Have you @@ been to Italy?"
+    },
+    {
+      "incomplete_word": "ev",
+      "complete_word": "every",
+      "context": "I exercise @@ day."
+    },
+    {
+      "incomplete_word": "ever",
+      "complete_word": "everyone",
+      "context": "Hello @@, welcome to the meeting."
+    },
+    {
+      "incomplete_word": "every",
+      "complete_word": "everything",
+      "context": "I lost @@ in the fire."
+    },
+    {
+      "incomplete_word": "exa",
+      "complete_word": "exactly",
+      "context": "That's @@ what I thought."
+    },
+    {
+      "incomplete_word": "ex",
+      "complete_word": "exam",
+      "context": "I have an @@ tomorrow."
+    },
+    {
+      "incomplete_word": "exa",
+      "complete_word": "example",
+      "context": "Can you give me an @@ of what you mean?"
+    },
+    {
+      "incomplete_word": "ex",
+      "complete_word": "exams",
+      "context": "She studied hard for her @@."
+    },
+    {
+      "incomplete_word": "exci",
+      "complete_word": "exciting",
+      "context": "It's an @@ time to be alive."
+    },
+    {
+      "incomplete_word": "exi",
+      "complete_word": "exists",
+      "context": "I doubt that such a place @@."
+    },
+    {
+      "incomplete_word": "exp",
+      "complete_word": "expect",
+      "context": "What do you @@ will happen?"
+    },
+    {
+      "incomplete_word": "expen",
+      "complete_word": "expensive",
+      "context": "That car is very @@."
+    },
+    {
+      "incomplete_word": "exper",
+      "complete_word": "experience",
+      "context": "Traveling is a great learning @@."
+    },
+    {
+      "incomplete_word": "facil",
+      "complete_word": "facilities",
+      "context": "The hotel offers excellent @@."
+    },
+    {
+      "incomplete_word": "fa",
+      "complete_word": "fact",
+      "context": "In @@, I've never been there."
+    },
+    {
+      "incomplete_word": "fac",
+      "complete_word": "factors",
+      "context": "Several @@ contributed to the success."
+    },
+    {
+      "incomplete_word": "fact",
+      "complete_word": "factory",
+      "context": "The @@ pollution is a serious issue."
+    },
+    {
+      "incomplete_word": "fa",
+      "complete_word": "fail",
+      "context": "I hope I don't @@ the test."
+    },
+    {
+      "incomplete_word": "fai",
+      "complete_word": "failure",
+      "context": "Fear of @@ can hold you back."
+    },
+    {
+      "incomplete_word": "fa",
+      "complete_word": "fall",
+      "context": "Leaves @@ from the trees in autumn."
+    },
+    {
+      "incomplete_word": "fal",
+      "complete_word": "falling",
+      "context": "The snow started @@ early this year."
+    },
+    {
+      "incomplete_word": "fam",
+      "complete_word": "family",
+      "context": "I'm going to visit my @@ this weekend."
+    },
+    {
+      "incomplete_word": "fam",
+      "complete_word": "famous",
+      "context": "He became @@ for his research."
+    },
+    {
+      "incomplete_word": "f",
+      "complete_word": "fan",
+      "context": "I'm a big @@ of her music."
+    },
+    {
+      "incomplete_word": "fa",
+      "complete_word": "farm",
+      "context": "They own a small @@ in the countryside."
+    },
+    {
+      "incomplete_word": "fas",
+      "complete_word": "fashion",
+      "context": "She has a great sense of @@."
+    },
+    {
+      "incomplete_word": "fa",
+      "complete_word": "fast",
+      "context": "He runs very @@."
+    },
+    {
+      "incomplete_word": "fas",
+      "complete_word": "faster",
+      "context": "This computer is much @@ than the old one."
+    },
+    {
+      "incomplete_word": "f",
+      "complete_word": "fat",
+      "context": "This meat has a lot of @@."
+    },
+    {
+      "incomplete_word": "fat",
+      "complete_word": "father",
+      "context": "My @@ is an engineer."
+    },
+    {
+      "incomplete_word": "favo",
+      "complete_word": "favorite",
+      "context": "Pizza is my @@ food."
+    },
+    {
+      "incomplete_word": "fe",
+      "complete_word": "feeds",
+      "context": "The river @@ into the ocean."
+    },
+    {
+      "incomplete_word": "fe",
+      "complete_word": "feel",
+      "context": "I @@ so happy right now."
+    },
+    {
+      "incomplete_word": "fe",
+      "complete_word": "feels",
+      "context": "She @@ cold; turn up the heat."
+    },
+    {
+      "incomplete_word": "fe",
+      "complete_word": "ferry",
+      "context": "We took a @@ to the island."
+    },
+    {
+      "incomplete_word": "fest",
+      "complete_word": "festival",
+      "context": "The music @@ was amazing."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "field",
+      "context": "They played soccer in the @@."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "fight",
+      "context": "He had to @@ for his rights."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "figure",
+      "context": "I can't @@ out this problem."
+    },
+    {
+      "incomplete_word": "f",
+      "complete_word": "few",
+      "context": "Only a @@ people showed up."
+    },
+    {
+      "incomplete_word": "fie",
+      "complete_word": "fields",
+      "context": "The farmer owns several @@."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "fifth",
+      "context": "He lives on the @@ floor."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "fill",
+      "context": "Please @@ up the tank."
+    },
+    {
+      "incomplete_word": "fil",
+      "complete_word": "filled",
+      "context": "The room was @@ with laughter."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "film",
+      "context": "We watched a @@ last night."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "films",
+      "context": "He enjoys watching old @@."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "find",
+      "context": "Did you @@ your keys?"
+    },
+    {
+      "incomplete_word": "fin",
+      "complete_word": "finish",
+      "context": "I need to @@ my homework."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "first",
+      "context": "She won the @@ prize."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "five",
+      "context": "There are @@ continents."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "fixed",
+      "context": "The mechanic @@ the car."
+    },
+    {
+      "incomplete_word": "fi",
+      "complete_word": "fixes",
+      "context": "He always @@ things around the house."
+    },
+    {
+      "incomplete_word": "fl",
+      "complete_word": "flat",
+      "context": "She lives in a @@ in London."
+    },
+    {
+      "incomplete_word": "fl",
+      "complete_word": "flew",
+      "context": "The bird @@ over the trees."
+    },
+    {
+      "incomplete_word": "fli",
+      "complete_word": "flight",
+      "context": "Our @@ was delayed."
+    },
+    {
+      "incomplete_word": "fl",
+      "complete_word": "floor",
+      "context": "He dropped the glass on the @@."
+    },
+    {
+      "incomplete_word": "fo",
+      "complete_word": "focus",
+      "context": "You need to @@ on your studies."
+    },
+    {
+      "incomplete_word": "foll",
+      "complete_word": "followers",
+      "context": "She has thousands of @@ on social media."
+    },
+    {
+      "incomplete_word": "fol",
+      "complete_word": "follows",
+      "context": "He @@ her on Instagram."
+    },
+    {
+      "incomplete_word": "fo",
+      "complete_word": "fond",
+      "context": "I am very @@ of you."
+    },
+    {
+      "incomplete_word": "fo",
+      "complete_word": "food",
+      "context": "Italian @@ is my favorite."
+    },
+    {
+      "incomplete_word": "f",
+      "complete_word": "for",
+      "context": "This gift is @@ you."
+    },
+    {
+      "incomplete_word": "for",
+      "complete_word": "foreign",
+      "context": "He studied @@ languages in college."
+    },
+    {
+      "incomplete_word": "fo",
+      "complete_word": "forms",
+      "context": "Please fill out these @@."
+    },
+    {
+      "incomplete_word": "fo",
+      "complete_word": "found",
+      "context": "They @@ a lost puppy."
+    },
+    {
+      "incomplete_word": "fo",
+      "complete_word": "four",
+      "context": "There are @@ seasons in a year."
+    },
+    {
+      "incomplete_word": "frec",
+      "complete_word": "freckles",
+      "context": "She has @@ on her nose."
+    },
+    {
+      "incomplete_word": "fr",
+      "complete_word": "free",
+      "context": "The museum is @@ on Sundays."
+    },
+    {
+      "incomplete_word": "fre",
+      "complete_word": "freezes",
+      "context": "Water @@ at 0 degrees Celsius."
+    },
+    {
+      "incomplete_word": "fri",
+      "complete_word": "friend",
+      "context": "He is my best @@."
+    },
+    {
+      "incomplete_word": "frie",
+      "complete_word": "friendly",
+      "context": "The locals are very @@."
+    },
+    {
+      "incomplete_word": "fri",
+      "complete_word": "friends",
+      "context": "We are good @@."
+    },
+    {
+      "incomplete_word": "fr",
+      "complete_word": "frog",
+      "context": "The @@ jumped into the pond."
+    },
+    {
+      "incomplete_word": "fr",
+      "complete_word": "from",
+      "context": "I am @@ Brazil."
+    },
+    {
+      "incomplete_word": "fr",
+      "complete_word": "fruit",
+      "context": "I like to eat fresh @@."
+    },
+    {
+      "incomplete_word": "fu",
+      "complete_word": "full",
+      "context": "The glass is @@ of water."
+    },
+    {
+      "incomplete_word": "furn",
+      "complete_word": "furniture",
+      "context": "We bought some new @@ for the living room."
+    },
+    {
+      "incomplete_word": "fut",
+      "complete_word": "future",
+      "context": "We need to think about the @@."
+    },
+    {
+      "incomplete_word": "ga",
+      "complete_word": "game",
+      "context": "We played a @@ of chess."
+    },
+    {
+      "incomplete_word": "gam",
+      "complete_word": "games",
+      "context": "Video @@ can be addictive."
+    },
+    {
+      "incomplete_word": "gar",
+      "complete_word": "garbage",
+      "context": "Please take out the @@."
+    },
+    {
+      "incomplete_word": "gar",
+      "complete_word": "garden",
+      "context": "We planted flowers in the @@."
+    },
+    {
+      "incomplete_word": "gene",
+      "complete_word": "generally",
+      "context": "He is @@ a happy person."
+    },
+    {
+      "incomplete_word": "g",
+      "complete_word": "get",
+      "context": "Did you @@ my message?"
+    },
+    {
+      "incomplete_word": "ge",
+      "complete_word": "gets",
+      "context": "She @@ up early every day."
+    },
+    {
+      "incomplete_word": "ge",
+      "complete_word": "getting",
+      "context": "It's @@ late; we should go home."
+    },
+    {
+      "incomplete_word": "gir",
+      "complete_word": "girl",
+      "context": "The little @@ was lost."
+    },
+    {
+      "incomplete_word": "gi",
+      "complete_word": "girls",
+      "context": "The @@ played volleyball at the beach."
+    },
+    {
+      "incomplete_word": "gi",
+      "complete_word": "gives",
+      "context": "He @@ great advice."
+    },
+    {
+      "incomplete_word": "giv",
+      "complete_word": "giving",
+      "context": "Thanks for @@ me a ride."
+    },
+    {
+      "incomplete_word": "g",
+      "complete_word": "go",
+      "context": "Let's @@ to the movies."
+    },
+    {
+      "incomplete_word": "go",
+      "complete_word": "goals",
+      "context": "She has set high @@ for herself."
+    },
+    {
+      "incomplete_word": "go",
+      "complete_word": "goes",
+      "context": "He @@ to the gym every day."
+    },
+    {
+      "incomplete_word": "go",
+      "complete_word": "going",
+      "context": "Are you @@ to the party?"
+    },
+    {
+      "incomplete_word": "go",
+      "complete_word": "good",
+      "context": "He did a @@ deed."
+    },
+    {
+      "incomplete_word": "g",
+      "complete_word": "got",
+      "context": "I @@ a new job."
+    },
+    {
+      "incomplete_word": "got",
+      "complete_word": "gotten",
+      "context": "The situation has @@ worse."
+    },
+    {
+      "incomplete_word": "go",
+      "complete_word": "gown",
+      "context": "She wore a beautiful @@ to the ball."
+    },
+    {
+      "incomplete_word": "gra",
+      "complete_word": "grading",
+      "context": "I'm busy @@ papers this weekend."
+    },
+    {
+      "incomplete_word": "gr",
+      "complete_word": "grand",
+      "context": "They stayed at a @@ hotel."
+    },
+    {
+      "incomplete_word": "grand",
+      "complete_word": "grandfather",
+      "context": "My @@ tells the best stories."
+    },
+    {
+      "incomplete_word": "gr",
+      "complete_word": "grass",
+      "context": "The @@ needs to be mowed."
+    },
+    {
+      "incomplete_word": "gr",
+      "complete_word": "gray",
+      "context": "She found a @@ hair."
+    },
+    {
+      "incomplete_word": "gr",
+      "complete_word": "great",
+      "context": "That's a @@ idea!"
+    },
+    {
+      "incomplete_word": "gre",
+      "complete_word": "greatly",
+      "context": "Your help is @@ appreciated."
+    },
+    {
+      "incomplete_word": "gr",
+      "complete_word": "green",
+      "context": "The lights turned @@."
+    },
+    {
+      "incomplete_word": "gre",
+      "complete_word": "greeted",
+      "context": "He @@ everyone with a smile."
+    },
+    {
+      "incomplete_word": "gro",
+      "complete_word": "ground",
+      "context": "The coffee beans were @@ freshly."
+    },
+    {
+      "incomplete_word": "gro",
+      "complete_word": "growing",
+      "context": "The company is @@ rapidly."
+    },
+    {
+      "incomplete_word": "gro",
+      "complete_word": "growth",
+      "context": "We've seen significant @@ this year."
+    },
+    {
+      "incomplete_word": "gu",
+      "complete_word": "guess",
+      "context": "Can you @@ what I'm thinking?"
+    },
+    {
+      "incomplete_word": "gy",
+      "complete_word": "gym",
+      "context": "I go to the @@ three times a week."
+    },
+    {
+      "incomplete_word": "h",
+      "complete_word": "had",
+      "context": "We @@ a great time at the party."
+    },
+    {
+      "incomplete_word": "ha",
+      "complete_word": "half",
+      "context": "Cut the apple in @@."
+    },
+    {
+      "incomplete_word": "ha",
+      "complete_word": "hard",
+      "context": "This math problem is really @@."
+    },
+    {
+      "incomplete_word": "har",
+      "complete_word": "hardest",
+      "context": "That was the @@ decision I've ever made."
+    },
+    {
+      "incomplete_word": "har",
+      "complete_word": "harvest",
+      "context": "The farmers began the @@ in autumn."
+    },
+    {
+      "incomplete_word": "h",
+      "complete_word": "has",
+      "context": "He @@ a new idea."
+    },
+    {
+      "incomplete_word": "ha",
+      "complete_word": "have",
+      "context": "Do you @@ any questions?"
+    },
+    {
+      "incomplete_word": "ha",
+      "complete_word": "having",
+      "context": "We're @@ a party on Saturday."
+    },
+    {
+      "incomplete_word": "h",
+      "complete_word": "he",
+      "context": "Can @@ help me with this?"
+    },
+    {
+      "incomplete_word": "he",
+      "complete_word": "head",
+      "context": "I have a headache in my @@."
+    },
+    {
+      "incomplete_word": "headp",
+      "complete_word": "headphones",
+      "context": "I lost my @@ at the gym."
+    },
+    {
+      "incomplete_word": "hea",
+      "complete_word": "health",
+      "context": "Eating well is important for good @@."
+    },
+    {
+      "incomplete_word": "he",
+      "complete_word": "hear",
+      "context": "Did you @@ the news?"
+    },
+    {
+      "incomplete_word": "he",
+      "complete_word": "heard",
+      "context": "I've @@ a lot about you."
+    },
+    {
+      "incomplete_word": "he",
+      "complete_word": "held",
+      "context": "The meeting was @@ in the main office."
+    },
+    {
+      "incomplete_word": "he",
+      "complete_word": "help",
+      "context": "Can you @@ me with this?"
+    },
+    {
+      "incomplete_word": "hel",
+      "complete_word": "helped",
+      "context": "She @@ me find my keys."
+    },
+    {
+      "incomplete_word": "h",
+      "complete_word": "her",
+      "context": "I gave the book to @@."
+    },
+    {
+      "incomplete_word": "he",
+      "complete_word": "herd",
+      "context": "A @@ of cows blocked the road."
+    },
+    {
+      "incomplete_word": "hi",
+      "complete_word": "high",
+      "context": "The mountain is very @@."
+    },
+    {
+      "incomplete_word": "hi",
+      "complete_word": "hills",
+      "context": "We went hiking in the @@."
+    },
+    {
+      "incomplete_word": "h",
+      "complete_word": "him",
+      "context": "I told @@ about the party."
+    },
+    {
+      "incomplete_word": "him",
+      "complete_word": "himself",
+      "context": "He considers @@ lucky."
+    },
+    {
+      "incomplete_word": "hir",
+      "complete_word": "hiring",
+      "context": "The company is @@ new employees."
+    },
+    {
+      "incomplete_word": "h",
+      "complete_word": "his",
+      "context": "He lost @@ keys."
+    },
+    {
+      "incomplete_word": "hol",
+      "complete_word": "holding",
+      "context": "She was @@ a bouquet of flowers."
+    },
+    {
+      "incomplete_word": "hol",
+      "complete_word": "holiday",
+      "context": "We're going on @@ next week."
+    },
+    {
+      "incomplete_word": "ho",
+      "complete_word": "home",
+      "context": "I want to go @@."
+    },
+    {
+      "incomplete_word": "ho",
+      "complete_word": "homes",
+      "context": "Many @@ were damaged in the storm."
+    },
+    {
+      "incomplete_word": "home",
+      "complete_word": "homework",
+      "context": "I have a lot of @@ to do."
+    },
+    {
+      "incomplete_word": "hop",
+      "complete_word": "hoping",
+      "context": "I'm @@ for good weather tomorrow."
+    },
+    {
+      "incomplete_word": "h",
+      "complete_word": "hot",
+      "context": "The coffee is too @@ to drink."
+    },
+    {
+      "incomplete_word": "ho",
+      "complete_word": "hotel",
+      "context": "We stayed at a @@ near the beach."
+    },
+    {
+      "incomplete_word": "ho",
+      "complete_word": "hour",
+      "context": "The meeting lasted an @@."
+    },
+    {
+      "incomplete_word": "ho",
+      "complete_word": "hours",
+      "context": "The store is open 24 @@ a day."
+    },
+    {
+      "incomplete_word": "ho",
+      "complete_word": "house",
+      "context": "They bought a new @@."
+    },
+    {
+      "incomplete_word": "h",
+      "complete_word": "how",
+      "context": "Do you know @@ to cook this dish?"
+    },
+    {
+      "incomplete_word": "how",
+      "complete_word": "however",
+      "context": "I wanted to buy it, @@, it was too expensive."
+    },
+    {
+      "incomplete_word": "hus",
+      "complete_word": "husband",
+      "context": "Her @@ is a doctor."
+    },
+    {
+      "incomplete_word": "i",
+      "complete_word": "ice",
+      "context": "We need more @@ for the drinks."
+    },
+    {
+      "incomplete_word": "ic",
+      "complete_word": "icon",
+      "context": "Click on the @@ to open the app."
+    },
+    {
+      "incomplete_word": "id",
+      "complete_word": "ideas",
+      "context": "We brainstormed some new @@ for the project."
+    },
+    {
+      "incomplete_word": "i",
+      "complete_word": "if",
+      "context": "I don't know @@ I can make it."
+    },
+    {
+      "incomplete_word": "impo",
+      "complete_word": "important",
+      "context": "It's @@ to eat healthy."
+    },
+    {
+      "incomplete_word": "imp",
+      "complete_word": "improve",
+      "context": "We need to @@ our process."
+    },
+    {
+      "incomplete_word": "i",
+      "complete_word": "in",
+      "context": "He lives @@ New York."
+    },
+    {
+      "incomplete_word": "incl",
+      "complete_word": "includes",
+      "context": "The course @@ several modules."
+    },
+    {
+      "incomplete_word": "incr",
+      "complete_word": "increase",
+      "context": "We saw an @@ in sales last quarter."
+    },
+    {
+      "incomplete_word": "indiv",
+      "complete_word": "individuals",
+      "context": "The program is designed for @@ seeking employment."
+    },
+    {
+      "incomplete_word": "infor",
+      "complete_word": "information",
+      "context": "You can find more @@ on our website."
+    },
+    {
+      "incomplete_word": "inter",
+      "complete_word": "interested",
+      "context": "Are you @@ in learning more?"
+    },
+    {
+      "incomplete_word": "in",
+      "complete_word": "into",
+      "context": "She turned the key @@ the lock."
+    },
+    {
+      "incomplete_word": "i",
+      "complete_word": "is",
+      "context": "He @@ a good teacher."
+    },
+    {
+      "incomplete_word": "i",
+      "complete_word": "it",
+      "context": "Can you believe @@?"
+    },
+    {
+      "incomplete_word": "i",
+      "complete_word": "its",
+      "context": "The cat licked @@ paws."
+    },
+    {
+      "incomplete_word": "ja",
+      "complete_word": "jazz",
+      "context": "He loves listening to @@ music."
+    },
+    {
+      "incomplete_word": "j",
+      "complete_word": "job",
+      "context": "She got a new @@ at the bank."
+    },
+    {
+      "incomplete_word": "jo",
+      "complete_word": "jobs",
+      "context": "There are many @@ available in the city."
+    },
+    {
+      "incomplete_word": "ju",
+      "complete_word": "juice",
+      "context": "Would you like some orange @@?"
+    },
+    {
+      "incomplete_word": "ju",
+      "complete_word": "just",
+      "context": "I @@ finished my homework."
+    },
+    {
+      "incomplete_word": "ke",
+      "complete_word": "keep",
+      "context": "Please @@ the door closed."
+    },
+    {
+      "incomplete_word": "kic",
+      "complete_word": "kicking",
+      "context": "The baby started @@ in her sleep."
+    },
+    {
+      "incomplete_word": "ki",
+      "complete_word": "kind",
+      "context": "What @@ of music do you like?"
+    },
+    {
+      "incomplete_word": "kn",
+      "complete_word": "know",
+      "context": "Do you @@ the way to the station?"
+    },
+    {
+      "incomplete_word": "kn",
+      "complete_word": "known",
+      "context": "He is @@ for his expertise in French cuisine."
+    },
+    {
+      "incomplete_word": "la",
+      "complete_word": "lake",
+      "context": "We went swimming in the @@."
+    },
+    {
+      "incomplete_word": "la",
+      "complete_word": "lands",
+      "context": "The plane @@ smoothly."
+    },
+    {
+      "incomplete_word": "lang",
+      "complete_word": "language",
+      "context": "Spanish is a beautiful @@."
+    },
+    {
+      "incomplete_word": "lar",
+      "complete_word": "largely",
+      "context": "The success was @@ due to her efforts."
+    },
+    {
+      "incomplete_word": "la",
+      "complete_word": "last",
+      "context": "He was the @@ to leave."
+    },
+    {
+      "incomplete_word": "la",
+      "complete_word": "late",
+      "context": "Sorry, I'm @@."
+    },
+    {
+      "incomplete_word": "la",
+      "complete_word": "later",
+      "context": "Let's talk about it @@."
+    },
+    {
+      "incomplete_word": "la",
+      "complete_word": "lazy",
+      "context": "He was too @@ to get up."
+    },
+    {
+      "incomplete_word": "le",
+      "complete_word": "leaf",
+      "context": "A @@ fell from the tree."
+    },
+    {
+      "incomplete_word": "le",
+      "complete_word": "learn",
+      "context": "I want to @@ Spanish."
+    },
+    {
+      "incomplete_word": "lea",
+      "complete_word": "learned",
+      "context": "She @@ a lot at the conference."
+    },
+    {
+      "incomplete_word": "lea",
+      "complete_word": "learnt",
+      "context": "He has @@ his lesson."
+    },
+    {
+      "incomplete_word": "lea",
+      "complete_word": "leaves",
+      "context": "The tree sheds its @@ in autumn."
+    },
+    {
+      "incomplete_word": "le",
+      "complete_word": "left",
+      "context": "She @@ her purse at home."
+    },
+    {
+      "incomplete_word": "let",
+      "complete_word": "letters",
+      "context": "He writes beautiful @@."
+    },
+    {
+      "incomplete_word": "let",
+      "complete_word": "lettuce",
+      "context": "Add some @@ to the salad."
+    },
+    {
+      "incomplete_word": "le",
+      "complete_word": "level",
+      "context": "What is your English @@?"
+    },
+    {
+      "incomplete_word": "lev",
+      "complete_word": "levels",
+      "context": "The water @@ are rising."
+    },
+    {
+      "incomplete_word": "li",
+      "complete_word": "life",
+      "context": "She moved to the city for a new @@."
+    },
+    {
+      "incomplete_word": "lig",
+      "complete_word": "lights",
+      "context": "Turn off the @@ when you leave."
+    },
+    {
+      "incomplete_word": "li",
+      "complete_word": "like",
+      "context": "Would you @@ to go for a walk?"
+    },
+    {
+      "incomplete_word": "li",
+      "complete_word": "likes",
+      "context": "He @@ playing guitar."
+    },
+    {
+      "incomplete_word": "lim",
+      "complete_word": "limits",
+      "context": "We need to set some @@."
+    },
+    {
+      "incomplete_word": "lit",
+      "complete_word": "little",
+      "context": "A @@ bit of sugar."
+    },
+    {
+      "incomplete_word": "li",
+      "complete_word": "live",
+      "context": "They @@ in a small house."
+    },
+    {
+      "incomplete_word": "li",
+      "complete_word": "lived",
+      "context": "She has @@ in Paris for ten years."
+    },
+    {
+      "incomplete_word": "li",
+      "complete_word": "lives",
+      "context": "He @@ for his work."
+    },
+    {
+      "incomplete_word": "lod",
+      "complete_word": "lodged",
+      "context": "They @@ a complaint with the council."
+    },
+    {
+      "incomplete_word": "lo",
+      "complete_word": "long",
+      "context": "How @@ will it take?"
+    },
+    {
+      "incomplete_word": "loo",
+      "complete_word": "looking",
+      "context": "I'm @@ for my keys."
+    },
+    {
+      "incomplete_word": "l",
+      "complete_word": "lot",
+      "context": "I have a @@ of things to do."
+    },
+    {
+      "incomplete_word": "lo",
+      "complete_word": "lots",
+      "context": "There are @@ of stars in the sky."
+    },
+    {
+      "incomplete_word": "lo",
+      "complete_word": "love",
+      "context": "I @@ reading books."
+    },
+    {
+      "incomplete_word": "lo",
+      "complete_word": "loves",
+      "context": "She @@ her cat very much."
+    },
+    {
+      "incomplete_word": "l",
+      "complete_word": "lug",
+      "context": "He had to @@ his suitcase up the stairs."
+    },
+    {
+      "incomplete_word": "lu",
+      "complete_word": "lunch",
+      "context": "What did you have for @@?"
+    },
+    {
+      "incomplete_word": "ma",
+      "complete_word": "made",
+      "context": "She @@ a delicious cake."
+    },
+    {
+      "incomplete_word": "ma",
+      "complete_word": "maid",
+      "context": "The @@ cleaned the room."
+    },
+    {
+      "incomplete_word": "ma",
+      "complete_word": "mail",
+      "context": "Did you check the @@ today?"
+    },
+    {
+      "incomplete_word": "ma",
+      "complete_word": "make",
+      "context": "Can you @@ me a coffee?"
+    },
+    {
+      "incomplete_word": "mak",
+      "complete_word": "makers",
+      "context": "The decision @@ will meet tomorrow."
+    },
+    {
+      "incomplete_word": "ma",
+      "complete_word": "makes",
+      "context": "This experience @@ me stronger."
+    },
+    {
+      "incomplete_word": "m",
+      "complete_word": "man",
+      "context": "The @@ walked his dog."
+    },
+    {
+      "incomplete_word": "man",
+      "complete_word": "manager",
+      "context": "She spoke to the @@ about her concerns."
+    },
+    {
+      "incomplete_word": "mann",
+      "complete_word": "manner",
+      "context": "His polite @@ impressed everyone."
+    },
+    {
+      "incomplete_word": "ma",
+      "complete_word": "many",
+      "context": "There were @@ people at the concert."
+    },
+    {
+      "incomplete_word": "m",
+      "complete_word": "me",
+      "context": "Can you help @@ with this?"
+    },
+    {
+      "incomplete_word": "me",
+      "complete_word": "means",
+      "context": "This symbol @@ peace."
+    },
+    {
+      "incomplete_word": "measur",
+      "complete_word": "measurements",
+      "context": "We took the @@ for the new curtains."
+    },
+    {
+      "incomplete_word": "me",
+      "complete_word": "meat",
+      "context": "I don't eat much @@."
+    },
+    {
+      "incomplete_word": "medi",
+      "complete_word": "medicine",
+      "context": "He studied @@ at university."
+    },
+    {
+      "incomplete_word": "me",
+      "complete_word": "meet",
+      "context": "Let's @@ at the cafe."
+    },
+    {
+      "incomplete_word": "mee",
+      "complete_word": "meeting",
+      "context": "The @@ starts at 9 AM."
+    },
+    {
+      "incomplete_word": "mee",
+      "complete_word": "meetings",
+      "context": "She has back-to-back @@ all day."
+    },
+    {
+      "incomplete_word": "me",
+      "complete_word": "menus",
+      "context": "The restaurant offers vegan @@."
+    },
+    {
+      "incomplete_word": "mi",
+      "complete_word": "might",
+      "context": "It @@ rain later."
+    },
+    {
+      "incomplete_word": "mi",
+      "complete_word": "mine",
+      "context": "This book is @@."
+    },
+    {
+      "incomplete_word": "mi",
+      "complete_word": "miss",
+      "context": "I @@ my family."
+    },
+    {
+      "incomplete_word": "mis",
+      "complete_word": "missed",
+      "context": "He @@ the bus."
+    },
+    {
+      "incomplete_word": "mis",
+      "complete_word": "mission",
+      "context": "The @@ was a success."
+    },
+    {
+      "incomplete_word": "m",
+      "complete_word": "mom",
+      "context": "I'll ask my @@."
+    },
+    {
+      "incomplete_word": "mo",
+      "complete_word": "money",
+      "context": "We need to save @@."
+    },
+    {
+      "incomplete_word": "mo",
+      "complete_word": "more",
+      "context": "I want @@ pizza."
+    },
+    {
+      "incomplete_word": "mor",
+      "complete_word": "morning",
+      "context": "Good @@, everyone!"
+    },
+    {
+      "incomplete_word": "mo",
+      "complete_word": "most",
+      "context": "She is the @@ talented person I know."
+    },
+    {
+      "incomplete_word": "mos",
+      "complete_word": "mostly",
+      "context": "The audience was @@ adults."
+    },
+    {
+      "incomplete_word": "mot",
+      "complete_word": "mother",
+      "context": "My @@ is a teacher."
+    },
+    {
+      "incomplete_word": "mo",
+      "complete_word": "move",
+      "context": "We need to @@ the furniture."
+    },
+    {
+      "incomplete_word": "mo",
+      "complete_word": "moved",
+      "context": "They @@ to a new city."
+    },
+    {
+      "incomplete_word": "mo",
+      "complete_word": "movie",
+      "context": "Let's watch a @@ tonight."
+    },
+    {
+      "incomplete_word": "mo",
+      "complete_word": "movies",
+      "context": "I love horror @@."
+    },
+    {
+      "incomplete_word": "mu",
+      "complete_word": "much",
+      "context": "Thank you so @@."
+    },
+    {
+      "incomplete_word": "mult",
+      "complete_word": "multiple",
+      "context": "He has @@ tasks to complete."
+    },
+    {
+      "incomplete_word": "mush",
+      "complete_word": "mushroom",
+      "context": "I ordered a @@ pizza."
+    },
+    {
+      "incomplete_word": "mu",
+      "complete_word": "must",
+      "context": "We @@ find a solution."
+    },
+    {
+      "incomplete_word": "m",
+      "complete_word": "my",
+      "context": "This is @@ favorite song."
+    },
+    {
+      "incomplete_word": "mys",
+      "complete_word": "myself",
+      "context": "I introduced @@ to her."
+    },
+    {
+      "incomplete_word": "na",
+      "complete_word": "nails",
+      "context": "She painted her @@ red."
+    },
+    {
+      "incomplete_word": "na",
+      "complete_word": "naive",
+      "context": "It was @@ to think it would be easy."
+    },
+    {
+      "incomplete_word": "na",
+      "complete_word": "named",
+      "context": "The cat was @@ Whiskers."
+    },
+    {
+      "incomplete_word": "na",
+      "complete_word": "names",
+      "context": "They forgot our @@ on the guest list."
+    },
+    {
+      "incomplete_word": "nati",
+      "complete_word": "national",
+      "context": "The park is a @@ treasure."
+    },
+    {
+      "incomplete_word": "na",
+      "complete_word": "navy",
+      "context": "He served in the @@."
+    },
+    {
+      "incomplete_word": "ne",
+      "complete_word": "near",
+      "context": "The park is @@ my house."
+    },
+    {
+      "incomplete_word": "nea",
+      "complete_word": "nearby",
+      "context": "There's a cafe @@."
+    },
+    {
+      "incomplete_word": "ne",
+      "complete_word": "need",
+      "context": "You @@ to see this."
+    },
+    {
+      "incomplete_word": "nee",
+      "complete_word": "needed",
+      "context": "More time was @@ to finish the project."
+    },
+    {
+      "incomplete_word": "negot",
+      "complete_word": "negotiated",
+      "context": "We successfully @@ the contract."
+    },
+    {
+      "incomplete_word": "net",
+      "complete_word": "netball",
+      "context": "She plays @@ every Thursday."
+    },
+    {
+      "incomplete_word": "net",
+      "complete_word": "network",
+      "context": "The company is expanding its @@."
+    },
+    {
+      "incomplete_word": "ne",
+      "complete_word": "never",
+      "context": "I @@ thought it would happen."
+    },
+    {
+      "incomplete_word": "n",
+      "complete_word": "new",
+      "context": "We moved to a @@ city."
+    },
+    {
+      "incomplete_word": "ne",
+      "complete_word": "next",
+      "context": "Let's meet @@ week."
+    },
+    {
+      "incomplete_word": "ni",
+      "complete_word": "nice",
+      "context": "That was a @@ thing to do."
+    },
+    {
+      "incomplete_word": "ne",
+      "complete_word": "nicer",
+      "context": "The weather is @@ today than yesterday."
+    },
+    {
+      "incomplete_word": "ni",
+      "complete_word": "night",
+      "context": "It was a dark and stormy @@."
+    },
+    {
+      "incomplete_word": "nig",
+      "complete_word": "nights",
+      "context": "Cold @@ are common in winter."
+    },
+    {
+      "incomplete_word": "n",
+      "complete_word": "no",
+      "context": "There's @@ time to waste."
+    },
+    {
+      "incomplete_word": "nomin",
+      "complete_word": "nominative",
+      "context": "In grammar, 'I' is a @@ case."
+    },
+    {
+      "incomplete_word": "no",
+      "complete_word": "none",
+      "context": "There were @@ left."
+    },
+    {
+      "incomplete_word": "nor",
+      "complete_word": "normal",
+      "context": "Everything returned to @@."
+    },
+    {
+      "incomplete_word": "no",
+      "complete_word": "north",
+      "context": "We traveled to the @@ of the country."
+    },
+    {
+      "incomplete_word": "n",
+      "complete_word": "not",
+      "context": "I do @@ know him."
+    },
+    {
+      "incomplete_word": "no",
+      "complete_word": "novel",
+      "context": "She wrote an award-winning @@."
+    },
+    {
+      "incomplete_word": "n",
+      "complete_word": "now",
+      "context": "Let's start @@."
+    },
+    {
+      "incomplete_word": "num",
+      "complete_word": "number",
+      "context": "What's your phone @@?"
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "oak",
+      "context": "The @@ tree is centuries old."
+    },
+    {
+      "incomplete_word": "obj",
+      "complete_word": "object",
+      "context": "The @@ of the game is to score points."
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "of",
+      "context": "A cup @@ tea, please."
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "off",
+      "context": "He lives just @@ the main road."
+    },
+    {
+      "incomplete_word": "of",
+      "complete_word": "offer",
+      "context": "They made an @@ I couldn't refuse."
+    },
+    {
+      "incomplete_word": "off",
+      "complete_word": "offered",
+      "context": "He @@ to help."
+    },
+    {
+      "incomplete_word": "off",
+      "complete_word": "office",
+      "context": "She works in an @@ downtown."
+    },
+    {
+      "incomplete_word": "of",
+      "complete_word": "often",
+      "context": "We @@ go to the beach."
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "ok",
+      "context": "Is it @@ if I come too?"
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "old",
+      "context": "My @@ phone finally broke."
+    },
+    {
+      "incomplete_word": "ol",
+      "complete_word": "older",
+      "context": "My sister is two years @@ than me."
+    },
+    {
+      "incomplete_word": "oliv",
+      "complete_word": "olives",
+      "context": "I don't like green @@."
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "on",
+      "context": "The lights are @@."
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "one",
+      "context": "He's the @@ for the job."
+    },
+    {
+      "incomplete_word": "one",
+      "complete_word": "ones",
+      "context": "These are the @@ I like."
+    },
+    {
+      "incomplete_word": "on",
+      "complete_word": "only",
+      "context": "You're the @@ person I told."
+    },
+    {
+      "incomplete_word": "one",
+      "complete_word": "onsite",
+      "context": "The technician will work @@."
+    },
+    {
+      "incomplete_word": "ope",
+      "complete_word": "operate",
+      "context": "The machine is easy to @@."
+    },
+    {
+      "incomplete_word": "opera",
+      "complete_word": "operations",
+      "context": "The company has @@ worldwide."
+    },
+    {
+      "incomplete_word": "opi",
+      "complete_word": "opinion",
+      "context": "In my @@, it's not worth the cost."
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "or",
+      "context": "Do you prefer tea @@ coffee?"
+    },
+    {
+      "incomplete_word": "or",
+      "complete_word": "order",
+      "context": "I'd like to @@ a pizza."
+    },
+    {
+      "incomplete_word": "oth",
+      "complete_word": "others",
+      "context": "Some were happy, @@ were not."
+    },
+    {
+      "incomplete_word": "ours",
+      "complete_word": "ourselves",
+      "context": "We must defend @@."
+    },
+    {
+      "incomplete_word": "o",
+      "complete_word": "out",
+      "context": "Let's go @@ tonight."
+    },
+    {
+      "incomplete_word": "outl",
+      "complete_word": "outlines",
+      "context": "The book @@ the basics of cooking."
+    },
+    {
+      "incomplete_word": "ov",
+      "complete_word": "over",
+      "context": "The game is @@."
+    },
+    {
+      "incomplete_word": "ow",
+      "complete_word": "owed",
+      "context": "He @@ me money."
+    },
+    {
+      "incomplete_word": "owne",
+      "complete_word": "ownership",
+      "context": "Proof of @@ is required."
+    },
+    {
+      "incomplete_word": "pac",
+      "complete_word": "packed",
+      "context": "The suitcase was @@ tightly."
+    },
+    {
+      "incomplete_word": "pa",
+      "complete_word": "paid",
+      "context": "The bills need to be @@."
+    },
+    {
+      "incomplete_word": "pai",
+      "complete_word": "paints",
+      "context": "She @@ beautiful landscapes."
+    },
+    {
+      "incomplete_word": "pa",
+      "complete_word": "park",
+      "context": "Let's meet at the @@."
+    },
+    {
+      "incomplete_word": "pa",
+      "complete_word": "part",
+      "context": "He played a @@ in the play."
+    },
+    {
+      "incomplete_word": "pas",
+      "complete_word": "passed",
+      "context": "The law was finally @@."
+    },
+    {
+      "incomplete_word": "pa",
+      "complete_word": "past",
+      "context": "I walked @@ her house."
+    },
+    {
+      "incomplete_word": "pas",
+      "complete_word": "pasta",
+      "context": "We had @@ for dinner."
+    },
+    {
+      "incomplete_word": "pa",
+      "complete_word": "path",
+      "context": "The @@ led through the woods."
+    },
+    {
+      "incomplete_word": "p",
+      "complete_word": "pay",
+      "context": "You have to @@ the bill."
+    },
+    {
+      "incomplete_word": "peo",
+      "complete_word": "people",
+      "context": "Many @@ attended the event."
+    },
+    {
+      "incomplete_word": "per",
+      "complete_word": "person",
+      "context": "She is a kind @@."
+    },
+    {
+      "incomplete_word": "ph",
+      "complete_word": "phone",
+      "context": "Can you answer the @@?"
+    },
+    {
+      "incomplete_word": "pic",
+      "complete_word": "pickle",
+      "context": "I'll have a sandwich with a @@."
+    },
+    {
+      "incomplete_word": "pic",
+      "complete_word": "picture",
+      "context": "She took a @@ of the sunset."
+    },
+    {
+      "incomplete_word": "pil",
+      "complete_word": "pilots",
+      "context": "The @@ are trained for emergencies."
+    },
+    {
+      "incomplete_word": "pi",
+      "complete_word": "pizza",
+      "context": "Who wants another slice of @@?"
+    },
+    {
+      "incomplete_word": "pla",
+      "complete_word": "place",
+      "context": "This is my favorite @@ to eat."
+    },
+    {
+      "incomplete_word": "pl",
+      "complete_word": "plane",
+      "context": "The @@ landed safely."
+    },
+    {
+      "incomplete_word": "pla",
+      "complete_word": "planned",
+      "context": "The event is @@ for next month."
+    },
+    {
+      "incomplete_word": "pl",
+      "complete_word": "plans",
+      "context": "We have big @@ for the weekend."
+    },
+    {
+      "incomplete_word": "pl",
+      "complete_word": "play",
+      "context": "Do you want to @@ a game?"
+    },
+    {
+      "incomplete_word": "pla",
+      "complete_word": "players",
+      "context": "The team has talented @@."
+    },
+    {
+      "incomplete_word": "playg",
+      "complete_word": "playground",
+      "context": "The children ran towards the @@."
+    },
+    {
+      "incomplete_word": "ple",
+      "complete_word": "please",
+      "context": "Could you @@ pass the salt?"
+    },
+    {
+      "incomplete_word": "plea",
+      "complete_word": "pleasure",
+      "context": "It's a @@ to meet you."
+    },
+    {
+      "incomplete_word": "pl",
+      "complete_word": "plot",
+      "context": "The movie's @@ was intriguing."
+    },
+    {
+      "incomplete_word": "pl",
+      "complete_word": "plus",
+      "context": "Two @@ two equals four."
+    },
+    {
+      "incomplete_word": "p",
+      "complete_word": "pm",
+      "context": "Let's meet at 5 @@."
+    },
+    {
+      "incomplete_word": "pol",
+      "complete_word": "police",
+      "context": "The @@ arrived at the scene."
+    },
+    {
+      "incomplete_word": "pol",
+      "complete_word": "polygon",
+      "context": "A triangle is a simple @@."
+    },
+    {
+      "incomplete_word": "p",
+      "complete_word": "pop",
+      "context": "The balloon will @@ if you poke it."
+    },
+    {
+      "incomplete_word": "po",
+      "complete_word": "port",
+      "context": "The ship docked at the @@."
+    },
+    {
+      "incomplete_word": "posi",
+      "complete_word": "positions",
+      "context": "The players took their @@ on the field."
+    },
+    {
+      "incomplete_word": "pre",
+      "complete_word": "precise",
+      "context": "We need a @@ measurement."
+    },
+    {
+      "incomplete_word": "pr",
+      "complete_word": "press",
+      "context": "Don't forget to @@ the button."
+    },
+    {
+      "incomplete_word": "pres",
+      "complete_word": "pressures",
+      "context": "The @@ of work can be high."
+    },
+    {
+      "incomplete_word": "pre",
+      "complete_word": "pretty",
+      "context": "That's a @@ dress you're wearing."
+    },
+    {
+      "incomplete_word": "pre",
+      "complete_word": "prevent",
+      "context": "Vaccines can @@ diseases."
+    },
+    {
+      "incomplete_word": "prev",
+      "complete_word": "previous",
+      "context": "As mentioned in the @@ chapter..."
+    },
+    {
+      "incomplete_word": "previ",
+      "complete_word": "previously",
+      "context": "As @@ stated, we will continue to monitor the situation."
+    },
+    {
+      "incomplete_word": "pr",
+      "complete_word": "price",
+      "context": "The @@ of gas is rising."
+    },
+    {
+      "incomplete_word": "prin",
+      "complete_word": "principal",
+      "context": "The @@ announced the school's closure."
+    },
+    {
+      "incomplete_word": "prin",
+      "complete_word": "principle",
+      "context": "He stood firm on his moral @@."
+    },
+    {
+      "incomplete_word": "prob",
+      "complete_word": "probably",
+      "context": "It will @@ rain tomorrow."
+    },
+    {
+      "incomplete_word": "prob",
+      "complete_word": "problems",
+      "context": "We need to solve these @@ quickly."
+    },
+    {
+      "incomplete_word": "prod",
+      "complete_word": "produced",
+      "context": "The factory @@ thousands of units."
+    },
+    {
+      "incomplete_word": "prod",
+      "complete_word": "products",
+      "context": "Our company offers various @@."
+    },
+    {
+      "incomplete_word": "pu",
+      "complete_word": "push",
+      "context": "Give the door a hard @@ to open it."
+    },
+    {
+      "incomplete_word": "p",
+      "complete_word": "put",
+      "context": "Please @@ the book on the table."
+    },
+    {
+      "incomplete_word": "ques",
+      "complete_word": "question",
+      "context": "That's an interesting @@."
+    },
+    {
+      "incomplete_word": "quest",
+      "complete_word": "questioned",
+      "context": "He was @@ by the police."
+    },
+    {
+      "incomplete_word": "ques",
+      "complete_word": "questions",
+      "context": "I have a few @@ for you."
+    },
+    {
+      "incomplete_word": "qu",
+      "complete_word": "quite",
+      "context": "It's @@ cold outside."
+    },
+    {
+      "incomplete_word": "ra",
+      "complete_word": "radio",
+      "context": "Turn on the @@, please."
+    },
+    {
+      "incomplete_word": "rai",
+      "complete_word": "railway",
+      "context": "The @@ station is nearby."
+    },
+    {
+      "incomplete_word": "ra",
+      "complete_word": "rain",
+      "context": "Looks like it might @@ later."
+    },
+    {
+      "incomplete_word": "rat",
+      "complete_word": "rather",
+      "context": "I would @@ stay home tonight."
+    },
+    {
+      "incomplete_word": "re",
+      "complete_word": "read",
+      "context": "I love to @@ before bed."
+    },
+    {
+      "incomplete_word": "rea",
+      "complete_word": "reading",
+      "context": "She enjoys @@ historical novels."
+    },
+    {
+      "incomplete_word": "rea",
+      "complete_word": "reality",
+      "context": "Virtual @@ technology is advancing rapidly."
+    },
+    {
+      "incomplete_word": "real",
+      "complete_word": "realized",
+      "context": "He @@ he had forgotten his keys."
+    },
+    {
+      "incomplete_word": "rea",
+      "complete_word": "really",
+      "context": "Do you @@ think so?"
+    },
+    {
+      "incomplete_word": "rece",
+      "complete_word": "recently",
+      "context": "I've @@ started learning guitar."
+    },
+    {
+      "incomplete_word": "rec",
+      "complete_word": "recipes",
+      "context": "This cookbook has great @@."
+    },
+    {
+      "incomplete_word": "recog",
+      "complete_word": "recognized",
+      "context": "She was @@ for her contributions to science."
+    },
+    {
+      "incomplete_word": "reco",
+      "complete_word": "recommend",
+      "context": "Can you @@ a good restaurant?"
+    },
+    {
+      "incomplete_word": "r",
+      "complete_word": "red",
+      "context": "The apple is @@."
+    },
+    {
+      "incomplete_word": "rej",
+      "complete_word": "rejoin",
+      "context": "He went to @@ his friends after the phone call."
+    },
+    {
+      "incomplete_word": "re",
+      "complete_word": "relax",
+      "context": "It's time to @@ after a long day."
+    },
+    {
+      "incomplete_word": "rel",
+      "complete_word": "relaxes",
+      "context": "She @@ by reading a book."
+    },
+    {
+      "incomplete_word": "reme",
+      "complete_word": "remember",
+      "context": "I can't @@ where I put my keys."
+    },
+    {
+      "incomplete_word": "ren",
+      "complete_word": "render",
+      "context": "The software can @@ high-quality images."
+    },
+    {
+      "incomplete_word": "re",
+      "complete_word": "rent",
+      "context": "We decided to @@ a car for the trip."
+    },
+    {
+      "incomplete_word": "req",
+      "complete_word": "require",
+      "context": "This job will @@ patience."
+    },
+    {
+      "incomplete_word": "re",
+      "complete_word": "rest",
+      "context": "You should get some @@."
+    },
+    {
+      "incomplete_word": "resta",
+      "complete_word": "restaurant",
+      "context": "This @@ serves amazing food."
+    },
+    {
+      "incomplete_word": "resta",
+      "complete_word": "restaurants",
+      "context": "There are several good @@ in this area."
+    },
+    {
+      "incomplete_word": "retr",
+      "complete_word": "retrieve",
+      "context": "The dog went to @@ the ball."
+    },
+    {
+      "incomplete_word": "ret",
+      "complete_word": "return",
+      "context": "Please @@ the book when you're done."
+    },
+    {
+      "incomplete_word": "ri",
+      "complete_word": "ride",
+      "context": "Would you like to @@ my new bike?"
+    },
+    {
+      "incomplete_word": "ri",
+      "complete_word": "right",
+      "context": "You're @@; I was mistaken."
+    },
+    {
+      "incomplete_word": "rig",
+      "complete_word": "rights",
+      "context": "Everyone deserves equal @@."
+    },
+    {
+      "incomplete_word": "ri",
+      "complete_word": "ripe",
+      "context": "The fruit is perfectly @@."
+    },
+    {
+      "incomplete_word": "ro",
+      "complete_word": "rock",
+      "context": "He listens to @@ music."
+    },
+    {
+      "incomplete_word": "ro",
+      "complete_word": "room",
+      "context": "The @@ is ready for the meeting."
+    },
+    {
+      "incomplete_word": "ro",
+      "complete_word": "rooms",
+      "context": "All the @@ in the hotel were booked."
+    },
+    {
+      "incomplete_word": "ru",
+      "complete_word": "rugby",
+      "context": "He plays @@ on the weekends."
+    },
+    {
+      "incomplete_word": "r",
+      "complete_word": "run",
+      "context": "I like to @@ in the morning."
+    },
+    {
+      "incomplete_word": "ru",
+      "complete_word": "runs",
+      "context": "The river @@ through the city."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "sad",
+      "context": "It's @@ to see summer end."
+    },
+    {
+      "incomplete_word": "saf",
+      "complete_word": "safety",
+      "context": "Wear a helmet for your @@."
+    },
+    {
+      "incomplete_word": "sa",
+      "complete_word": "said",
+      "context": "She @@ she would be late."
+    },
+    {
+      "incomplete_word": "sal",
+      "complete_word": "salad",
+      "context": "I ordered a Caesar @@ for lunch."
+    },
+    {
+      "incomplete_word": "sa",
+      "complete_word": "same",
+      "context": "We have the @@ idea."
+    },
+    {
+      "incomplete_word": "sam",
+      "complete_word": "sample",
+      "context": "The lab tested a @@ of the water."
+    },
+    {
+      "incomplete_word": "sandw",
+      "complete_word": "sandwiches",
+      "context": "We made @@ for the picnic."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "saw",
+      "context": "I @@ him at the store yesterday."
+    },
+    {
+      "incomplete_word": "sa",
+      "complete_word": "says",
+      "context": "The sign @@ 'Keep Out'."
+    },
+    {
+      "incomplete_word": "sca",
+      "complete_word": "scared",
+      "context": "I'm @@ of spiders."
+    },
+    {
+      "incomplete_word": "sch",
+      "complete_word": "school",
+      "context": "The children walked to @@ together."
+    },
+    {
+      "incomplete_word": "scie",
+      "complete_word": "sciences",
+      "context": "She studies life @@ at university."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "sea",
+      "context": "The @@ was calm that day."
+    },
+    {
+      "incomplete_word": "sea",
+      "complete_word": "season",
+      "context": "Fall is my favorite @@."
+    },
+    {
+      "incomplete_word": "secre",
+      "complete_word": "secretariat",
+      "context": "The @@ handles the administration of the organization."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "see",
+      "context": "Can you @@ the difference?"
+    },
+    {
+      "incomplete_word": "se",
+      "complete_word": "seems",
+      "context": "It @@ like a good idea at the time."
+    },
+    {
+      "incomplete_word": "se",
+      "complete_word": "seen",
+      "context": "Have you @@ my glasses?"
+    },
+    {
+      "incomplete_word": "se",
+      "complete_word": "sees",
+      "context": "She @@ potential in you."
+    },
+    {
+      "incomplete_word": "se",
+      "complete_word": "sell",
+      "context": "They decided to @@ their car."
+    },
+    {
+      "incomplete_word": "sel",
+      "complete_word": "selling",
+      "context": "He's good at @@ products."
+    },
+    {
+      "incomplete_word": "seme",
+      "complete_word": "semester",
+      "context": "The new @@ starts in September."
+    },
+    {
+      "incomplete_word": "sent",
+      "complete_word": "sentence",
+      "context": "The judge gave him a ten-year @@."
+    },
+    {
+      "incomplete_word": "ser",
+      "complete_word": "series",
+      "context": "This TV @@ is really popular."
+    },
+    {
+      "incomplete_word": "ser",
+      "complete_word": "serious",
+      "context": "The situation is more @@ than we thought."
+    },
+    {
+      "incomplete_word": "serv",
+      "complete_word": "services",
+      "context": "Our company offers various @@."
+    },
+    {
+      "incomplete_word": "se",
+      "complete_word": "seven",
+      "context": "There are @@ days in a week."
+    },
+    {
+      "incomplete_word": "sev",
+      "complete_word": "several",
+      "context": "I've read it @@ times."
+    },
+    {
+      "incomplete_word": "sh",
+      "complete_word": "sharp",
+      "context": "Be careful, the knife is very @@."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "she",
+      "context": "I think @@ is the right person for the job."
+    },
+    {
+      "incomplete_word": "she",
+      "complete_word": "sheets",
+      "context": "We need to change the bed @@."
+    },
+    {
+      "incomplete_word": "ship",
+      "complete_word": "shipping",
+      "context": "The company offers free @@."
+    },
+    {
+      "incomplete_word": "shir",
+      "complete_word": "shirts",
+      "context": "He bought two new @@."
+    },
+    {
+      "incomplete_word": "sh",
+      "complete_word": "short",
+      "context": "The meeting was surprisingly @@."
+    },
+    {
+      "incomplete_word": "sho",
+      "complete_word": "should",
+      "context": "You @@ try the cake; it's delicious."
+    },
+    {
+      "incomplete_word": "sho",
+      "complete_word": "showers",
+      "context": "April @@ bring May flowers."
+    },
+    {
+      "incomplete_word": "sh",
+      "complete_word": "shut",
+      "context": "Please @@ the door when you leave."
+    },
+    {
+      "incomplete_word": "si",
+      "complete_word": "side",
+      "context": "Move to the @@ so I can pass."
+    },
+    {
+      "incomplete_word": "signf",
+      "complete_word": "significantly",
+      "context": "Our costs have @@ decreased."
+    },
+    {
+      "incomplete_word": "sim",
+      "complete_word": "similar",
+      "context": "Our opinions are quite @@."
+    },
+    {
+      "incomplete_word": "sim",
+      "complete_word": "simple",
+      "context": "It's a @@ solution to a complex problem."
+    },
+    {
+      "incomplete_word": "sin",
+      "complete_word": "since",
+      "context": "I haven't seen him @@ yesterday."
+    },
+    {
+      "incomplete_word": "sin",
+      "complete_word": "single",
+      "context": "Every @@ piece is important."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "sir",
+      "context": "Excuse me, @@, you dropped your wallet."
+    },
+    {
+      "incomplete_word": "sis",
+      "complete_word": "sisters",
+      "context": "The two @@ look very alike."
+    },
+    {
+      "incomplete_word": "ski",
+      "complete_word": "skills",
+      "context": "She has excellent communication @@."
+    },
+    {
+      "incomplete_word": "sk",
+      "complete_word": "skin",
+      "context": "The sun can damage your @@."
+    },
+    {
+      "incomplete_word": "skir",
+      "complete_word": "skirts",
+      "context": "She prefers wearing @@ over pants."
+    },
+    {
+      "incomplete_word": "sl",
+      "complete_word": "sleeps",
+      "context": "He usually @@ eight hours a night."
+    },
+    {
+      "incomplete_word": "slig",
+      "complete_word": "slightly",
+      "context": "The recipe was @@ altered."
+    },
+    {
+      "incomplete_word": "slo",
+      "complete_word": "slogan",
+      "context": "The company's new @@ is catchy."
+    },
+    {
+      "incomplete_word": "sm",
+      "complete_word": "small",
+      "context": "She lives in a @@ town."
+    },
+    {
+      "incomplete_word": "smo",
+      "complete_word": "smooth",
+      "context": "The road was surprisingly @@."
+    },
+    {
+      "incomplete_word": "sna",
+      "complete_word": "snacks",
+      "context": "We brought some @@ for the trip."
+    },
+    {
+      "incomplete_word": "sn",
+      "complete_word": "snow",
+      "context": "The @@ began to fall quietly."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "so",
+      "context": "It was @@ cold outside."
+    },
+    {
+      "incomplete_word": "soc",
+      "complete_word": "social",
+      "context": "He's very active on @@ media."
+    },
+    {
+      "incomplete_word": "so",
+      "complete_word": "sold",
+      "context": "The tickets were @@ out quickly."
+    },
+    {
+      "incomplete_word": "so",
+      "complete_word": "some",
+      "context": "I need @@ help with this."
+    },
+    {
+      "incomplete_word": "som",
+      "complete_word": "someone",
+      "context": "Is there @@ at the door?"
+    },
+    {
+      "incomplete_word": "some",
+      "complete_word": "something",
+      "context": "I need to tell you @@ important."
+    },
+    {
+      "incomplete_word": "some",
+      "complete_word": "sometimes",
+      "context": "I feel lonely @@."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "son",
+      "context": "Her @@ is in the school play."
+    },
+    {
+      "incomplete_word": "sou",
+      "complete_word": "sounds",
+      "context": "The music @@ beautiful."
+    },
+    {
+      "incomplete_word": "sp",
+      "complete_word": "spell",
+      "context": "How do you @@ that word?"
+    },
+    {
+      "incomplete_word": "sp",
+      "complete_word": "spend",
+      "context": "We plan to @@ the holidays in Spain."
+    },
+    {
+      "incomplete_word": "spe",
+      "complete_word": "spends",
+      "context": "He @@ too much time playing video games."
+    },
+    {
+      "incomplete_word": "sp",
+      "complete_word": "split",
+      "context": "Let's @@ the bill."
+    },
+    {
+      "incomplete_word": "spo",
+      "complete_word": "spoken",
+      "context": "He's well-@@ in several languages."
+    },
+    {
+      "incomplete_word": "spo",
+      "complete_word": "sports",
+      "context": "She plays several @@."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "staff",
+      "context": "The @@ meeting is scheduled for Monday."
+    },
+    {
+      "incomplete_word": "sta",
+      "complete_word": "stairs",
+      "context": "The @@ are very steep."
+    },
+    {
+      "incomplete_word": "stan",
+      "complete_word": "standing",
+      "context": "He was @@ in the doorway."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "start",
+      "context": "When does the movie @@?"
+    },
+    {
+      "incomplete_word": "sta",
+      "complete_word": "started",
+      "context": "She @@ a new job last week."
+    },
+    {
+      "incomplete_word": "star",
+      "complete_word": "starting",
+      "context": "He's @@ to get the hang of it."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "state",
+      "context": "The company is in a stable financial @@."
+    },
+    {
+      "incomplete_word": "sta",
+      "complete_word": "station",
+      "context": "I'll meet you at the train @@."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "stay",
+      "context": "Can you @@ a little longer?"
+    },
+    {
+      "incomplete_word": "sta",
+      "complete_word": "stayed",
+      "context": "We @@ at a hotel last night."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "still",
+      "context": "Are you @@ awake?"
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "stood",
+      "context": "She @@ up for what she believed in."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "stops",
+      "context": "The bus @@ at all the main stations."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "store",
+      "context": "I need to go to the grocery @@."
+    },
+    {
+      "incomplete_word": "str",
+      "complete_word": "street",
+      "context": "Our house is on Maple @@."
+    },
+    {
+      "incomplete_word": "str",
+      "complete_word": "strict",
+      "context": "My parents were very @@ with me."
+    },
+    {
+      "incomplete_word": "str",
+      "complete_word": "strong",
+      "context": "She's very @@, she can lift that box."
+    },
+    {
+      "incomplete_word": "stro",
+      "complete_word": "strongest",
+      "context": "He's the @@ in the class."
+    },
+    {
+      "incomplete_word": "stu",
+      "complete_word": "student",
+      "context": "Each @@ should have a textbook."
+    },
+    {
+      "incomplete_word": "stud",
+      "complete_word": "students",
+      "context": "The @@ are preparing for exams."
+    },
+    {
+      "incomplete_word": "stu",
+      "complete_word": "studied",
+      "context": "She @@ biology in college."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "study",
+      "context": "I have to @@ for my test tomorrow."
+    },
+    {
+      "incomplete_word": "stu",
+      "complete_word": "stuff",
+      "context": "We need to pack our @@ for the trip."
+    },
+    {
+      "incomplete_word": "st",
+      "complete_word": "style",
+      "context": "Her @@ of writing is very unique."
+    },
+    {
+      "incomplete_word": "sub",
+      "complete_word": "subject",
+      "context": "What's your favorite @@ in school?"
+    },
+    {
+      "incomplete_word": "su",
+      "complete_word": "such",
+      "context": "It was @@ a beautiful day."
+    },
+    {
+      "incomplete_word": "su",
+      "complete_word": "sugar",
+      "context": "Could you pass the @@, please?"
+    },
+    {
+      "incomplete_word": "sum",
+      "complete_word": "summer",
+      "context": "We're going on vacation this @@."
+    },
+    {
+      "incomplete_word": "s",
+      "complete_word": "sun",
+      "context": "The @@ is shining brightly today."
+    },
+    {
+      "incomplete_word": "super",
+      "complete_word": "supervised",
+      "context": "The project must be @@ at all times."
+    },
+    {
+      "incomplete_word": "supp",
+      "complete_word": "support",
+      "context": "We need more @@ from the community."
+    },
+    {
+      "incomplete_word": "su",
+      "complete_word": "sure",
+      "context": "Are you @@ you locked the door?"
+    },
+    {
+      "incomplete_word": "swea",
+      "complete_word": "sweaty",
+      "context": "After the gym, his shirt was @@."
+    },
+    {
+      "incomplete_word": "sw",
+      "complete_word": "sweet",
+      "context": "I have a @@ tooth."
+    },
+    {
+      "incomplete_word": "swim",
+      "complete_word": "swimming",
+      "context": "We went @@ in the lake."
+    },
+    {
+      "incomplete_word": "swit",
+      "complete_word": "switching",
+      "context": "He's considering @@ jobs."
+    },
+    {
+      "incomplete_word": "sys",
+      "complete_word": "system",
+      "context": "The @@ needs to be rebooted."
+    },
+    {
+      "incomplete_word": "ta",
+      "complete_word": "table",
+      "context": "Please set the @@ for dinner."
+    },
+    {
+      "incomplete_word": "ta",
+      "complete_word": "take",
+      "context": "Can you @@ out the trash?"
+    },
+    {
+      "incomplete_word": "ta",
+      "complete_word": "taken",
+      "context": "All the seats were already @@."
+    },
+    {
+      "incomplete_word": "ta",
+      "complete_word": "takes",
+      "context": "It @@ a lot of courage to stand up to bullies."
+    },
+    {
+      "incomplete_word": "tak",
+      "complete_word": "taking",
+      "context": "She's @@ a break from work."
+    },
+    {
+      "incomplete_word": "ta",
+      "complete_word": "talks",
+      "context": "He often @@ about his adventures."
+    },
+    {
+      "incomplete_word": "ta",
+      "complete_word": "taste",
+      "context": "This cake has an interesting @@."
+    },
+    {
+      "incomplete_word": "t",
+      "complete_word": "tea",
+      "context": "Would you like some @@?"
+    },
+    {
+      "incomplete_word": "tea",
+      "complete_word": "teacher",
+      "context": "My @@ is very knowledgeable."
+    },
+    {
+      "incomplete_word": "teac",
+      "complete_word": "teachers",
+      "context": "The @@ are planning a strike."
+    },
+    {
+      "incomplete_word": "teach",
+      "complete_word": "teaching",
+      "context": "He's passionate about @@."
+    },
+    {
+      "incomplete_word": "te",
+      "complete_word": "team",
+      "context": "Our @@ won the game."
+    },
+    {
+      "incomplete_word": "te",
+      "complete_word": "teams",
+      "context": "Several @@ are competing in the tournament."
+    },
+    {
+      "incomplete_word": "techni",
+      "complete_word": "technical",
+      "context": "He's skilled in @@ support."
+    },
+    {
+      "incomplete_word": "techni",
+      "complete_word": "techniques",
+      "context": "The artist uses unique @@."
+    },
+    {
+      "incomplete_word": "telev",
+      "complete_word": "television",
+      "context": "We watched the news on @@."
+    },
+    {
+      "incomplete_word": "ten",
+      "complete_word": "tenis",
+      "context": "She's taking @@ lessons."
+    },
+    {
+      "incomplete_word": "te",
+      "complete_word": "term",
+      "context": "The @@ ended in December."
+    },
+    {
+      "incomplete_word": "te",
+      "complete_word": "test",
+      "context": "I have a @@ tomorrow."
+    },
+    {
+      "incomplete_word": "te",
+      "complete_word": "tests",
+      "context": "The doctor ordered some @@."
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "than",
+      "context": "She's taller @@ her brother."
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "that",
+      "context": "I hope @@ you'll join us."
+    },
+    {
+      "incomplete_word": "t",
+      "complete_word": "the",
+      "context": "He's @@ best in his field."
+    },
+    {
+      "incomplete_word": "the",
+      "complete_word": "theater",
+      "context": "We're going to the @@ tonight."
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "their",
+      "context": "They packed @@ bags for the trip."
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "them",
+      "context": "Can you help @@ with this?"
+    },
+    {
+      "incomplete_word": "thems",
+      "complete_word": "themselves",
+      "context": "They have to defend @@."
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "then",
+      "context": "If you're busy now, @@ how about later?"
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "there",
+      "context": "Is anyone @@?"
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "these",
+      "context": "Can you move @@ boxes?"
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "they",
+      "context": "Do you think @@ will agree?"
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "thing",
+      "context": "The most important @@ is to stay calm."
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "think",
+      "context": "I @@ we should go now."
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "this",
+      "context": "Can you hand me @@?"
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "those",
+      "context": "I prefer @@ shoes over these."
+    },
+    {
+      "incomplete_word": "tho",
+      "complete_word": "thought",
+      "context": "It was a @@-provoking book."
+    },
+    {
+      "incomplete_word": "thou",
+      "complete_word": "thousand",
+      "context": "The concert drew over a @@ fans."
+    },
+    {
+      "incomplete_word": "th",
+      "complete_word": "three",
+      "context": "We waited for @@ hours."
+    },
+    {
+      "incomplete_word": "tic",
+      "complete_word": "tickets",
+      "context": "We bought @@ for the concert."
+    },
+    {
+      "incomplete_word": "ti",
+      "complete_word": "tier",
+      "context": "She's in the top @@ of her class."
+    },
+    {
+      "incomplete_word": "ti",
+      "complete_word": "time",
+      "context": "Do you have the @@ to talk?"
+    },
+    {
+      "incomplete_word": "ti",
+      "complete_word": "tips",
+      "context": "He gave some useful @@ for studying."
+    },
+    {
+      "incomplete_word": "ti",
+      "complete_word": "tired",
+      "context": "I'm really @@; I'm going to bed."
+    },
+    {
+      "incomplete_word": "t",
+      "complete_word": "to",
+      "context": "We walked @@ the park."
+    },
+    {
+      "incomplete_word": "toge",
+      "complete_word": "together",
+      "context": "Let's work @@ on this project."
+    },
+    {
+      "incomplete_word": "to",
+      "complete_word": "told",
+      "context": "She @@ me a secret."
+    },
+    {
+      "incomplete_word": "tomo",
+      "complete_word": "tomorrow",
+      "context": "I'll see you @@."
+    },
+    {
+      "incomplete_word": "ton",
+      "complete_word": "tonight",
+      "context": "Are you free @@?"
+    },
+    {
+      "incomplete_word": "to",
+      "complete_word": "tons",
+      "context": "We have @@ of homework."
+    },
+    {
+      "incomplete_word": "t",
+      "complete_word": "too",
+      "context": "This soup is @@ hot."
+    },
+    {
+      "incomplete_word": "to",
+      "complete_word": "took",
+      "context": "He @@ the last piece of cake."
+    },
+    {
+      "incomplete_word": "t",
+      "complete_word": "top",
+      "context": "She's at the @@ of her class."
+    },
+    {
+      "incomplete_word": "to",
+      "complete_word": "touch",
+      "context": "Don't @@ the wet paint."
+    },
+    {
+      "incomplete_word": "tow",
+      "complete_word": "towels",
+      "context": "We need clean @@ for the guests."
+    },
+    {
+      "incomplete_word": "to",
+      "complete_word": "town",
+      "context": "We're going into @@ to shop."
+    },
+    {
+      "incomplete_word": "tr",
+      "complete_word": "train",
+      "context": "The @@ arrives at 6 PM."
+    },
+    {
+      "incomplete_word": "tra",
+      "complete_word": "trains",
+      "context": "He @@ hard for the marathon."
+    },
+    {
+      "incomplete_word": "tra",
+      "complete_word": "travel",
+      "context": "I love to @@ to new places."
+    },
+    {
+      "incomplete_word": "trav",
+      "complete_word": "traveling",
+      "context": "She's currently @@ through Europe."
+    },
+    {
+      "incomplete_word": "tra",
+      "complete_word": "travels",
+      "context": "His job involves a lot of @@."
+    },
+    {
+      "incomplete_word": "tr",
+      "complete_word": "trees",
+      "context": "The wind rustled the @@."
+    },
+    {
+      "incomplete_word": "tre",
+      "complete_word": "trends",
+      "context": "She always knows the latest fashion @@."
+    },
+    {
+      "incomplete_word": "tr",
+      "complete_word": "tried",
+      "context": "I @@ to call you earlier."
+    },
+    {
+      "incomplete_word": "t",
+      "complete_word": "try",
+      "context": "Let's @@ that new restaurant."
+    },
+    {
+      "incomplete_word": "tur",
+      "complete_word": "turkey",
+      "context": "We're having @@ for Thanksgiving."
+    },
+    {
+      "incomplete_word": "tu",
+      "complete_word": "turn",
+      "context": "It's your @@ to roll the dice."
+    },
+    {
+      "incomplete_word": "tu",
+      "complete_word": "turns",
+      "context": "She @@ the page carefully."
+    },
+    {
+      "incomplete_word": "twe",
+      "complete_word": "twelve",
+      "context": "There are @@ months in a year."
+    },
+    {
+      "incomplete_word": "t",
+      "complete_word": "two",
+      "context": "I have @@ cats."
+    },
+    {
+      "incomplete_word": "typ",
+      "complete_word": "typical",
+      "context": "This is a @@ example of Roman architecture."
+    },
+    {
+      "incomplete_word": "typi",
+      "complete_word": "typically",
+      "context": "She is @@ very punctual."
+    },
+    {
+      "incomplete_word": "ul",
+      "complete_word": "ultra",
+      "context": "This product is an @@-efficient heater."
+    },
+    {
+      "incomplete_word": "unav",
+      "complete_word": "unavailable",
+      "context": "The service is currently @@."
+    },
+    {
+      "incomplete_word": "un",
+      "complete_word": "under",
+      "context": "The cat hid @@ the bed."
+    },
+    {
+      "incomplete_word": "underes",
+      "complete_word": "underestimated",
+      "context": "His skills were greatly @@."
+    },
+    {
+      "incomplete_word": "under",
+      "complete_word": "underground",
+      "context": "The subway is an @@ form of transportation."
+    },
+    {
+      "incomplete_word": "unfort",
+      "complete_word": "unfortunately",
+      "context": "He was @@ unable to attend."
+    },
+    {
+      "incomplete_word": "unive",
+      "complete_word": "university",
+      "context": "She got accepted into the @@ of her dreams."
+    },
+    {
+      "incomplete_word": "unprod",
+      "complete_word": "unproductive",
+      "context": "The meeting was largely @@."
+    },
+    {
+      "incomplete_word": "unt",
+      "complete_word": "untrue",
+      "context": "The rumors were completely @@."
+    },
+    {
+      "incomplete_word": "u",
+      "complete_word": "up",
+      "context": "Please pick @@ your toys."
+    },
+    {
+      "incomplete_word": "up",
+      "complete_word": "upset",
+      "context": "She was very @@ about the news."
+    },
+    {
+      "incomplete_word": "u",
+      "complete_word": "us",
+      "context": "Can you join @@ for dinner?"
+    },
+    {
+      "incomplete_word": "us",
+      "complete_word": "used",
+      "context": "This car is @@, but it's in good condition."
+    },
+    {
+      "incomplete_word": "us",
+      "complete_word": "uses",
+      "context": "He @@ a different technique."
+    },
+    {
+      "incomplete_word": "usu",
+      "complete_word": "usually",
+      "context": "We @@ eat dinner at 7 PM."
+    },
+    {
+      "incomplete_word": "va",
+      "complete_word": "vary",
+      "context": "Prices @@ from store to store."
+    },
+    {
+      "incomplete_word": "va",
+      "complete_word": "vase",
+      "context": "Please put the flowers in the @@."
+    },
+    {
+      "incomplete_word": "veget",
+      "complete_word": "vegetables",
+      "context": "We need to eat more @@."
+    },
+    {
+      "incomplete_word": "ve",
+      "complete_word": "veins",
+      "context": "You can see the @@ in his arms."
+    },
+    {
+      "incomplete_word": "ver",
+      "complete_word": "version",
+      "context": "This is the latest @@ of the software."
+    },
+    {
+      "incomplete_word": "ve",
+      "complete_word": "very",
+      "context": "She was @@ excited about the trip."
+    },
+    {
+      "incomplete_word": "vi",
+      "complete_word": "video",
+      "context": "Let's watch a @@ tonight."
+    },
+    {
+      "incomplete_word": "vinaig",
+      "complete_word": "vinaigrette",
+      "context": "I prefer @@ on my salad."
+    },
+    {
+      "incomplete_word": "vi",
+      "complete_word": "visit",
+      "context": "We plan to @@ the museum."
+    },
+    {
+      "incomplete_word": "visi",
+      "complete_word": "visiting",
+      "context": "She is @@ relatives this weekend."
+    },
+    {
+      "incomplete_word": "vo",
+      "complete_word": "vote",
+      "context": "Everyone is encouraged to @@ in the election."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "wakes",
+      "context": "He @@ up early every morning."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "walk",
+      "context": "Let's go for a @@ after dinner."
+    },
+    {
+      "incomplete_word": "wal",
+      "complete_word": "walked",
+      "context": "She @@ to work today."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "walks",
+      "context": "He @@ his dog every evening."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "walls",
+      "context": "The @@ need a fresh coat of paint."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "want",
+      "context": "What do you @@ for your birthday?"
+    },
+    {
+      "incomplete_word": "wan",
+      "complete_word": "wanted",
+      "context": "She @@ to see the manager."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "wants",
+      "context": "He @@ to learn how to cook."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "warm",
+      "context": "The sun feels @@ today."
+    },
+    {
+      "incomplete_word": "war",
+      "complete_word": "warmly",
+      "context": "She greeted us @@."
+    },
+    {
+      "incomplete_word": "w",
+      "complete_word": "was",
+      "context": "It @@ a long time ago."
+    },
+    {
+      "incomplete_word": "was",
+      "complete_word": "washes",
+      "context": "He @@ the dishes every night."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "watch",
+      "context": "Let's @@ a movie tonight."
+    },
+    {
+      "incomplete_word": "wa",
+      "complete_word": "water",
+      "context": "Please @@ the plants."
+    },
+    {
+      "incomplete_word": "water",
+      "complete_word": "waterfalls",
+      "context": "The @@ in the area are beautiful."
+    },
+    {
+      "incomplete_word": "w",
+      "complete_word": "way",
+      "context": "Can you show me the @@ to the station?"
+    },
+    {
+      "incomplete_word": "w",
+      "complete_word": "we",
+      "context": "@@ should leave now to catch the bus."
+    },
+    {
+      "incomplete_word": "we",
+      "complete_word": "wear",
+      "context": "What will you @@ to the party?"
+    },
+    {
+      "incomplete_word": "wea",
+      "complete_word": "wearing",
+      "context": "She was @@ a beautiful dress."
+    },
+    {
+      "incomplete_word": "we",
+      "complete_word": "wears",
+      "context": "He always @@ a hat."
+    },
+    {
+      "incomplete_word": "wea",
+      "complete_word": "weather",
+      "context": "The @@ is nice today."
+    },
+    {
+      "incomplete_word": "we",
+      "complete_word": "week",
+      "context": "I have a lot of work this @@."
+    },
+    {
+      "incomplete_word": "wee",
+      "complete_word": "weekend",
+      "context": "Do you have plans for the @@?"
+    },
+    {
+      "incomplete_word": "week",
+      "complete_word": "weekends",
+      "context": "We like to go hiking on @@."
+    },
+    {
+      "incomplete_word": "we",
+      "complete_word": "well",
+      "context": "I hope you get @@ soon."
+    },
+    {
+      "incomplete_word": "we",
+      "complete_word": "went",
+      "context": "We @@ to the beach yesterday."
+    },
+    {
+      "incomplete_word": "we",
+      "complete_word": "were",
+      "context": "They @@ happy to see us."
+    },
+    {
+      "incomplete_word": "w",
+      "complete_word": "wet",
+      "context": "The grass is still @@ from the dew."
+    },
+    {
+      "incomplete_word": "wh",
+      "complete_word": "what",
+      "context": "@@ would you like to drink?"
+    },
+    {
+      "incomplete_word": "wh",
+      "complete_word": "when",
+      "context": "@@ will you be home?"
+    },
+    {
+      "incomplete_word": "wh",
+      "complete_word": "where",
+      "context": "@@ did you put my keys?"
+    },
+    {
+      "incomplete_word": "wh",
+      "complete_word": "which",
+      "context": "@@ book do you prefer?"
+    },
+    {
+      "incomplete_word": "wh",
+      "complete_word": "while",
+      "context": "I read a book @@ waiting."
+    },
+    {
+      "incomplete_word": "wh",
+      "complete_word": "white",
+      "context": "She wore a @@ dress."
+    },
+    {
+      "incomplete_word": "w",
+      "complete_word": "who",
+      "context": "@@ is coming to the party?"
+    },
+    {
+      "incomplete_word": "wh",
+      "complete_word": "whole",
+      "context": "I ate the @@ pizza."
+    },
+    {
+      "incomplete_word": "wh",
+      "complete_word": "whom",
+      "context": "To @@ did you speak?"
+    },
+    {
+      "incomplete_word": "wi",
+      "complete_word": "will",
+      "context": "I @@ see you tomorrow."
+    },
+    {
+      "incomplete_word": "win",
+      "complete_word": "window",
+      "context": "Open the @@ for some fresh air."
+    },
+    {
+      "incomplete_word": "win",
+      "complete_word": "winter",
+      "context": "I love the snow in @@."
+    },
+    {
+      "incomplete_word": "wis",
+      "complete_word": "wishing",
+      "context": "She's @@ for a better future."
+    },
+    {
+      "incomplete_word": "wi",
+      "complete_word": "with",
+      "context": "I agree @@ you."
+    },
+    {
+      "incomplete_word": "wit",
+      "complete_word": "without",
+      "context": "We went on a trip @@ any plans."
+    },
+    {
+      "incomplete_word": "wo",
+      "complete_word": "women",
+      "context": "The @@'s club meets on Thursdays."
+    },
+    {
+      "incomplete_word": "wond",
+      "complete_word": "wondering",
+      "context": "I was @@ if you'd like to go out."
+    },
+    {
+      "incomplete_word": "woo",
+      "complete_word": "wooden",
+      "context": "The old house had @@ floors."
+    },
+    {
+      "incomplete_word": "wo",
+      "complete_word": "work",
+      "context": "I have a lot of @@ to do."
+    },
+    {
+      "incomplete_word": "wor",
+      "complete_word": "worker",
+      "context": "He's a hard @@."
+    },
+    {
+      "incomplete_word": "wo",
+      "complete_word": "works",
+      "context": "She @@ in a hospital."
+    },
+    {
+      "incomplete_word": "wor",
+      "complete_word": "worries",
+      "context": "He has many @@ about the future."
+    },
+    {
+      "incomplete_word": "worr",
+      "complete_word": "worrying",
+      "context": "It's @@ how much he smokes."
+    },
+    {
+      "incomplete_word": "wo",
+      "complete_word": "would",
+      "context": "I @@ like some coffee, please."
+    },
+    {
+      "incomplete_word": "wri",
+      "complete_word": "writing",
+      "context": "She's @@ a novel."
+    },
+    {
+      "incomplete_word": "wri",
+      "complete_word": "written",
+      "context": "This letter was @@ by hand."
+    },
+    {
+      "incomplete_word": "wr",
+      "complete_word": "wrong",
+      "context": "I was @@ about the time."
+    },
+    {
+      "incomplete_word": "wr",
+      "complete_word": "wrote",
+      "context": "He @@ a beautiful poem."
+    },
+    {
+      "incomplete_word": "ye",
+      "complete_word": "year",
+      "context": "It's been a @@ since we met."
+    },
+    {
+      "incomplete_word": "yel",
+      "complete_word": "yellow",
+      "context": "The sunflowers are bright @@."
+    },
+    {
+      "incomplete_word": "y",
+      "complete_word": "yet",
+      "context": "I haven't finished my homework @@."
+    },
+    {
+      "incomplete_word": "y",
+      "complete_word": "you",
+      "context": "What do @@ think?"
+    },
+    {
+      "incomplete_word": "yo",
+      "complete_word": "your",
+      "context": "Is this @@ book?"
+    },
+    {
+      "incomplete_word": "yo",
+      "complete_word": "yours",
+      "context": "Is this book @@?"
+    },
+    {
+      "incomplete_word": "yo",
+      "complete_word": "yourself",
+      "context": "You can do it @@."
+    },
+    {
+      "incomplete_word": "yo",
+      "complete_word": "youth",
+      "context": "The @@ of today are the leaders of tomorrow."
+    },
+    {
+      "incomplete_word": "ze",
+      "complete_word": "zero",
+      "context": "The temperature is @@ degrees."
+    },
+    {
+      "incomplete_word": "z",
+      "complete_word": "zip",
+      "context": "Can you help me @@ up my dress?"
+    },
+    {
+      "incomplete_word": "z",
+      "complete_word": "zone",
+      "context": "This area is a no-parking @@."
+    }
+  ]
 }
