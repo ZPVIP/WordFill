@@ -11,7 +11,7 @@ WordFill is an engaging fill-in-the-blank game that challenges you to complete s
 - **Hint**: If you're stuck on a particular sentence, you can click the "Hint" button or `Ctrl + h` to reveal the missing word. 
 
 ## Ready to Test Your Skills?
-Embark on your WordFill adventure now and see how many sentences you can complete correctly. Start playing by visiting [https://word-fill.vercel.app/](https://word-fill.vercel.app/)..
+Embark on your WordFill adventure now and see how many sentences you can complete correctly. Start playing by visiting [https://word-fill.vercel.app/](https://word-fill.vercel.app/).
 
 Happy guessing!
 
@@ -45,21 +45,5 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-# Deployment
-
-## Deploy to vercel
-
-You can deploy your own version to [Vercel](https://create-react-app.dev/docs/deployment/#vercel), [GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) or [other platforms](https://create-react-app.dev/docs/deployment/).
 
 
