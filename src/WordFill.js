@@ -51,7 +51,7 @@ function WordFill() {
         // and if the answer is correct, fetch a new word, and focus on the first input, else clear all the inputs, and focus on the first input
         // If the cursor is not at the last input, focus on the next input
         if (index === inputs.length - 1) {
-            if (newInputs.join('') === word.complete_word.slice(word.incomplete_word.length)) {
+            if (newInputs.join('').toLowerCase() === word.complete_word.slice(word.incomplete_word.length).toLowerCase()) {
                 playSound && audioRight.play();
                 fetchWord();
                 setWrong('');
@@ -107,6 +107,7 @@ function WordFill() {
                 <input type="checkbox" checked={isRandom} onChange={() => setIsRandom(!isRandom)}/> Random
             </div>
             <div style={{
+                width: '98%',
                 textAlign: 'center',
                 position: 'absolute',
                 top: '50%',
@@ -118,6 +119,9 @@ function WordFill() {
                     <span>{word.incomplete_word}</span>
                     {inputs.map((value, index) => (
                         <input
+                            autoCapitalize="none"
+                            autoCorrect="off"
+                            spellCheck="false"
                             key={index}
                             ref={inputRefs[index]}
                             type="text"
