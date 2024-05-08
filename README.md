@@ -1,4 +1,21 @@
-# Getting Started with Create React App
+# WordFill
+
+# How to play
+
+WordFill is an engaging fill-in-the-blank game that challenges you to complete sentences by correctly guessing missing words. Each sentence is presented with one or more blanks, and your task is to type in the missing word(s) that best complete the sentence.
+
+## Instructions
+- **Guessing Words**: Simply type your guess for the missing word into the provided space. If your guess is incorrect, a red cross will appear next to the sentence to indicate a wrong answer. Conversely, if your guess is correct, the sentence will automatically update to reveal the next challenge.
+
+- **Random Mode**: For those who prefer a non-linear approach, you can enable the "Random" mode by checking the "Random" checkbox. This feature shuffles the order of the sentences, offering a more unpredictable and varied gameplay experience.
+- **Hint**: If you're stuck on a particular sentence, you can click the "Hint" button or `Ctrl + h` to reveal the missing word. 
+
+## Ready to Test Your Skills?
+Embark on your WordFill adventure now and see how many sentences you can complete correctly. Start playing by visiting [https://word-fill.vercel.app/](https://word-fill.vercel.app/)..
+
+Happy guessing!
+
+# Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,32 +56,10 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+# Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Deploy to vercel
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can deploy your own version to [Vercel](https://create-react-app.dev/docs/deployment/#vercel), [GitHub Pages](https://create-react-app.dev/docs/deployment/#github-pages) or [other platforms](https://create-react-app.dev/docs/deployment/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
