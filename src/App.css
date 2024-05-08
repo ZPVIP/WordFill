@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+/* 默认样式（桌面设备） */
+.typingInput {
+  font-size: 2em;
+}
+
+/* 移动设备样式 */
+@media (max-width: 768px) {
+  .typingInput {
+    font-size: 1em;
+  }
+}
