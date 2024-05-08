@@ -97,7 +97,7 @@ function WordFill() {
 
     return (
         <div>
-            <div style={{position: 'absolute', top: '10px', right: '10px'}}>
+            <div style={{position: 'absolute', top: '18px', right: '50px'}}>
                 <button onClick={toggleHint} style={{marginRight: '10px'}}>
                     {showHint ? 'Hide Hint' : 'Show Hint'}
                 </button>
@@ -105,6 +105,8 @@ function WordFill() {
                     {playSound ? 'Mute Sound' : 'Play Sound'}
                 </button>
                 <input type="checkbox" checked={isRandom} onChange={() => setIsRandom(!isRandom)}/> Random
+                <a href="https://github.com/ZPVIP/WordFill" target="_blank" rel="noopener noreferrer"
+                   className="github header-github-link" aria-label="GitHub repository"></a>
             </div>
             <div style={{
                 width: '98%',
