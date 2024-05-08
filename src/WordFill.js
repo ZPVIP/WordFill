@@ -110,7 +110,7 @@ function WordFill() {
                 width: '98%',
                 textAlign: 'center',
                 position: 'absolute',
-                top: '50%',
+                top: '30%',
                 left: '50%',
                 transform: 'translate(-50%, -50%)'
             }}>
@@ -128,7 +128,7 @@ function WordFill() {
                             value={value}
                             onChange={(e) => handleInputChange(e, index)}
                             onKeyDown={handleKeyDown}
-                            style={{width: '0.9em', height: '1.2em', textAlign: 'center', fontSize: '1em', margin: '0.08em', borderBottom: '1px solid #000', borderLeft: '0px', borderRight: '0px', borderTop: '0px', outline: 'none'}}
+                            style={{width: '0.9em', height: '1.2em', textAlign: 'center', fontSize: '1em', margin: '0.08em', outline: 'none'}}
                         />
                     ))}
                     <span>&nbsp;{word.context.split('@@')[1]}</span>

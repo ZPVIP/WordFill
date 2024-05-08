@@ -48,3 +48,14 @@
     font-size: 1em;
   }
 }
+
+input {
+  border: none;
+  border-bottom: 2px solid grey;
+  outline: none;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 2px solid #d946ef;
+}
